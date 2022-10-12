@@ -57,7 +57,7 @@
     ]
   },
   "base": {
-    "element": [
+    "category": [
       { "name": "color", "description": "" },
       { "name": "stroke", "description": "" },
       { "name": "radius", "description": "" },
