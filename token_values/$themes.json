@@ -63,7 +63,7 @@
       "component/card": "enabled",
       "component/toggle": "enabled",
       "component/formcontrol": "enabled",
-      "component/supercomponent": "disabled"
+      "component/supercomponent": "enabled"
     },
     "$figmaStyleReferences": {}
   }
