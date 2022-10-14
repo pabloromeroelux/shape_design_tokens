@@ -12,7 +12,7 @@
       "component/card": "enabled",
       "component/toggle": "enabled",
       "component/formcontrol": "enabled",
-      "supercomponent": "disabled"
+      "component/supercomponent": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -29,7 +29,7 @@
       "component/card": "enabled",
       "component/toggle": "enabled",
       "component/formcontrol": "enabled",
-      "supercomponent": "disabled"
+      "component/supercomponent": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -46,7 +46,7 @@
       "component/card": "enabled",
       "component/toggle": "enabled",
       "component/formcontrol": "enabled",
-      "supercomponent": "disabled"
+      "component/supercomponent": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -63,7 +63,7 @@
       "component/card": "enabled",
       "component/toggle": "enabled",
       "component/formcontrol": "enabled",
-      "supercomponent": "enabled"
+      "component/supercomponent": "disabled"
     },
     "$figmaStyleReferences": {}
   }
