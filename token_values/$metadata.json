@@ -5,6 +5,7 @@
     "component/card",
     "component/formcontrol",
     "component/toggle",
+    "supercomponent",
     "decision/base",
     "brand/elux/dark",
     "brand/aeg/dark",

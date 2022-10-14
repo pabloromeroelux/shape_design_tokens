@@ -11,7 +11,8 @@
       "brand/frig/dark": "disabled",
       "component/card": "enabled",
       "component/toggle": "enabled",
-      "component/formcontrol": "enabled"
+      "component/formcontrol": "enabled",
+      "supercomponent": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -27,7 +28,8 @@
       "brand/frig/dark": "enabled",
       "component/card": "enabled",
       "component/toggle": "enabled",
-      "component/formcontrol": "enabled"
+      "component/formcontrol": "enabled",
+      "supercomponent": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -43,7 +45,8 @@
       "brand/frig/dark": "disabled",
       "component/card": "enabled",
       "component/toggle": "enabled",
-      "component/formcontrol": "enabled"
+      "component/formcontrol": "enabled",
+      "supercomponent": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -59,7 +62,8 @@
       "brand/frig/dark": "disabled",
       "component/card": "enabled",
       "component/toggle": "enabled",
-      "component/formcontrol": "enabled"
+      "component/formcontrol": "enabled",
+      "supercomponent": "disabled"
     },
     "$figmaStyleReferences": {}
   }
