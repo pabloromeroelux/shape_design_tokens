@@ -1,22 +1,5 @@
 [
   {
-    "id": "cbd219b686fd5e2b5425397b79760a3b5b4a42d5",
-    "name": "Product UI - Neutral",
-    "selectedTokenSets": {
-      "reference": "source",
-      "decision/base": "enabled",
-      "component/button": "enabled",
-      "brand/elux/dark": "disabled",
-      "brand/aeg/dark": "disabled",
-      "brand/frig/dark": "disabled",
-      "component/card": "enabled",
-      "component/toggle": "enabled",
-      "component/formcontrol": "enabled",
-      "supercomponent": "disabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
     "id": "6df5dbd08f2897ff9b341e384d07a92cff1410bc",
     "name": "Product UI - Frigidaire – Dark",
     "selectedTokenSets": {
@@ -64,6 +47,23 @@
       "component/toggle": "enabled",
       "component/formcontrol": "enabled",
       "supercomponent": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "cbd219b686fd5e2b5425397b79760a3b5b4a42d5",
+    "name": "Product UI - Neutral",
+    "selectedTokenSets": {
+      "reference": "source",
+      "decision/base": "enabled",
+      "component/button": "enabled",
+      "brand/elux/dark": "disabled",
+      "brand/aeg/dark": "disabled",
+      "brand/frig/dark": "disabled",
+      "component/card": "enabled",
+      "component/toggle": "enabled",
+      "component/formcontrol": "enabled",
+      "supercomponent": "enabled"
     },
     "$figmaStyleReferences": {}
   }
