@@ -1,0 +1,66 @@
+[
+  {
+    "id": "cbd219b686fd5e2b5425397b79760a3b5b4a42d5",
+    "name": "Neutral",
+    "selectedTokenSets": {
+      "reference": "source",
+      "decision/base": "enabled",
+      "component/button": "enabled",
+      "brand/elux/dark": "disabled",
+      "brand/aeg/dark": "disabled",
+      "brand/frig/dark": "disabled",
+      "component/card": "enabled",
+      "component/toggle": "enabled",
+      "component/formcontrol": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "4bc96161ef936e7333d42915fba49667f787c14e",
+    "name": "Electrolux – Dark",
+    "selectedTokenSets": {
+      "reference": "source",
+      "component/button": "enabled",
+      "decision/base": "enabled",
+      "brand/elux/dark": "enabled",
+      "brand/aeg/dark": "disabled",
+      "brand/frig/dark": "disabled",
+      "component/card": "enabled",
+      "component/toggle": "enabled",
+      "component/formcontrol": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "0007f7ae973c1756e96f51b08a3d0d252a013860",
+    "name": "AEG – Dark",
+    "selectedTokenSets": {
+      "reference": "source",
+      "component/button": "enabled",
+      "decision/base": "enabled",
+      "brand/elux/dark": "disabled",
+      "brand/aeg/dark": "enabled",
+      "brand/frig/dark": "disabled",
+      "component/card": "enabled",
+      "component/toggle": "enabled",
+      "component/formcontrol": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "6df5dbd08f2897ff9b341e384d07a92cff1410bc",
+    "name": "Frigidaire – Dark",
+    "selectedTokenSets": {
+      "reference": "source",
+      "component/button": "enabled",
+      "decision/base": "enabled",
+      "brand/elux/dark": "disabled",
+      "brand/aeg/dark": "disabled",
+      "brand/frig/dark": "enabled",
+      "component/card": "enabled",
+      "component/toggle": "enabled",
+      "component/formcontrol": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

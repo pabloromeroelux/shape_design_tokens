@@ -1,0 +1,766 @@
+{
+  "stroke": {
+    "width": {
+      "00": {
+        "value": "0",
+        "type": "borderWidth",
+        "description": "0 px border width"
+      },
+      "01": {
+        "value": "1",
+        "type": "borderWidth",
+        "description": "1 px border width"
+      },
+      "02": {
+        "value": "2",
+        "type": "borderWidth",
+        "description": "2 px border width"
+      },
+      "03": {
+        "value": "3",
+        "type": "borderWidth"
+      },
+      "04": {
+        "value": "4",
+        "type": "borderWidth"
+      },
+      "1-2": {
+        "value": "1.2",
+        "type": "borderWidth"
+      },
+      "1-5": {
+        "value": "1.5",
+        "type": "borderWidth"
+      }
+    }
+  },
+  "dimension": {
+    "12": {
+      "value": "12",
+      "type": "sizing"
+    },
+    "16": {
+      "value": "16",
+      "type": "sizing"
+    },
+    "20": {
+      "value": "20",
+      "type": "sizing"
+    },
+    "24": {
+      "value": "24",
+      "type": "sizing"
+    },
+    "26": {
+      "value": "26",
+      "type": "sizing"
+    },
+    "32": {
+      "value": "32",
+      "type": "sizing"
+    },
+    "40": {
+      "value": "40",
+      "type": "sizing"
+    },
+    "48": {
+      "value": "48",
+      "type": "sizing"
+    },
+    "56": {
+      "value": "56",
+      "type": "sizing"
+    },
+    "64": {
+      "value": "64",
+      "type": "sizing"
+    },
+    "72": {
+      "value": "72",
+      "type": "sizing"
+    },
+    "104": {
+      "value": "104",
+      "type": "sizing"
+    },
+    "128": {
+      "value": "128",
+      "type": "sizing"
+    },
+    "02": {
+      "value": "2",
+      "type": "sizing"
+    },
+    "04": {
+      "value": "4",
+      "type": "sizing"
+    },
+    "08": {
+      "value": "8",
+      "type": "sizing"
+    }
+  },
+  "space": {
+    "12": {
+      "value": "12",
+      "type": "spacing"
+    },
+    "16": {
+      "value": "16",
+      "type": "spacing"
+    },
+    "20": {
+      "value": "20",
+      "type": "spacing"
+    },
+    "24": {
+      "value": "24",
+      "type": "spacing"
+    },
+    "32": {
+      "value": "32",
+      "type": "spacing"
+    },
+    "40": {
+      "value": "40",
+      "type": "spacing"
+    },
+    "48": {
+      "value": "48",
+      "type": "spacing"
+    },
+    "56": {
+      "value": "56",
+      "type": "spacing"
+    },
+    "64": {
+      "value": "64",
+      "type": "spacing"
+    },
+    "72": {
+      "value": "72",
+      "type": "spacing"
+    },
+    "02": {
+      "value": "2",
+      "type": "spacing"
+    },
+    "04": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "08": {
+      "value": "8",
+      "type": "spacing"
+    }
+  },
+  "radius": {
+    "12": {
+      "value": "12",
+      "type": "borderRadius"
+    },
+    "16": {
+      "value": "16",
+      "type": "borderRadius"
+    },
+    "20": {
+      "value": "20",
+      "type": "borderRadius"
+    },
+    "24": {
+      "value": "24",
+      "type": "borderRadius"
+    },
+    "32": {
+      "value": "32",
+      "type": "borderRadius"
+    },
+    "36": {
+      "value": "36",
+      "type": "borderRadius"
+    },
+    "40": {
+      "value": "40",
+      "type": "borderRadius"
+    },
+    "02": {
+      "value": "2",
+      "type": "borderRadius"
+    },
+    "04": {
+      "value": "4",
+      "type": "borderRadius"
+    },
+    "05": {
+      "value": "5",
+      "type": "borderRadius"
+    },
+    "08": {
+      "value": "8",
+      "type": "borderRadius"
+    }
+  },
+  "font": {
+    "family": {
+      "electroluxsans": {
+        "value": "Electrolux Sans",
+        "type": "fontFamilies",
+        "description": "Brand font for Electrolux"
+      },
+      "opensans": {
+        "value": "Open Sans",
+        "type": "fontFamilies"
+      },
+      "metric": {
+        "value": "Metric",
+        "type": "fontFamilies"
+      },
+      "gotham": {
+        "value": "Gotham",
+        "type": "fontFamilies"
+      },
+      "roboto": {
+        "value": "Roboto",
+        "type": "fontFamilies"
+      },
+      "readexPro": {
+        "value": "Readex Pro",
+        "type": "fontFamilies"
+      }
+    },
+    "weight": {
+      "book": {
+        "value": "Book",
+        "type": "fontWeights"
+      },
+      "regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "semibold": {
+        "value": "SemiBold",
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "light": {
+        "value": "Light",
+        "type": "fontWeights"
+      },
+      "medium": {
+        "value": "Medium",
+        "type": "fontWeights"
+      }
+    },
+    "lineHeight": {
+      "115": {
+        "value": "115%",
+        "type": "lineHeights"
+      },
+      "120": {
+        "value": "120%",
+        "type": "lineHeights"
+      },
+      "130": {
+        "value": "130%",
+        "type": "lineHeights"
+      },
+      "135": {
+        "value": "135%",
+        "type": "lineHeights"
+      },
+      "140": {
+        "value": "140%",
+        "type": "lineHeights"
+      },
+      "150": {
+        "value": "150%",
+        "type": "lineHeights"
+      },
+      "auto": {
+        "value": "AUTO",
+        "type": "lineHeights"
+      }
+    },
+    "size": {
+      "10": {
+        "value": "10",
+        "type": "fontSizes"
+      },
+      "11": {
+        "value": "11",
+        "type": "fontSizes"
+      },
+      "12": {
+        "value": "12",
+        "type": "fontSizes"
+      },
+      "13": {
+        "value": "13",
+        "type": "fontSizes"
+      },
+      "14": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "15": {
+        "value": "15",
+        "type": "fontSizes"
+      },
+      "16": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "17": {
+        "value": "17",
+        "type": "fontSizes"
+      },
+      "18": {
+        "value": "18",
+        "type": "fontSizes"
+      },
+      "19": {
+        "value": "19",
+        "type": "fontSizes"
+      },
+      "20": {
+        "value": "20",
+        "type": "fontSizes"
+      },
+      "21": {
+        "value": "21",
+        "type": "fontSizes"
+      },
+      "22": {
+        "value": "22",
+        "type": "fontSizes"
+      },
+      "23": {
+        "value": "23",
+        "type": "fontSizes"
+      },
+      "24": {
+        "value": "24",
+        "type": "fontSizes"
+      },
+      "26": {
+        "value": "26",
+        "type": "fontSizes"
+      },
+      "28": {
+        "value": "28",
+        "type": "fontSizes"
+      },
+      "30": {
+        "value": "30",
+        "type": "fontSizes"
+      },
+      "32": {
+        "value": "32",
+        "type": "fontSizes"
+      },
+      "34": {
+        "value": "34",
+        "type": "fontSizes"
+      },
+      "36": {
+        "value": "36",
+        "type": "fontSizes"
+      },
+      "38": {
+        "value": "38",
+        "type": "fontSizes"
+      },
+      "40": {
+        "value": "40",
+        "type": "fontSizes"
+      },
+      "46": {
+        "value": "46",
+        "type": "fontSizes"
+      },
+      "48": {
+        "value": "48",
+        "type": "fontSizes"
+      },
+      "56": {
+        "value": "56",
+        "type": "fontSizes"
+      },
+      "62": {
+        "value": "62",
+        "type": "fontSizes"
+      },
+      "64": {
+        "value": "64",
+        "type": "fontSizes"
+      },
+      "72": {
+        "value": "64",
+        "type": "fontSizes"
+      },
+      "09": {
+        "value": "9",
+        "type": "fontSizes"
+      }
+    },
+    "sizeMultiplier": {
+      "01": {
+        "value": "1",
+        "type": "fontSizes"
+      },
+      "01-13": {
+        "value": "1.13",
+        "type": "fontSizes"
+      },
+      "00-95": {
+        "value": "0.95",
+        "type": "fontSizes"
+      }
+    },
+    "letterSpacing": {
+      "10": {
+        "value": "10%",
+        "type": "letterSpacing"
+      },
+      "00": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "03": {
+        "value": "3%",
+        "type": "letterSpacing"
+      },
+      "05": {
+        "value": "5%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "12": {
+        "value": "12",
+        "type": "paragraphSpacing"
+      },
+      "16": {
+        "value": "16",
+        "type": "paragraphSpacing"
+      },
+      "24": {
+        "value": "24",
+        "type": "paragraphSpacing"
+      },
+      "00": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      },
+      "04": {
+        "value": "4",
+        "type": "paragraphSpacing"
+      },
+      "08": {
+        "value": "8",
+        "type": "paragraphSpacing"
+      }
+    },
+    "case": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration",
+        "description": "Underline"
+      }
+    }
+  },
+  "color": {
+    "ecogreen": {
+      "500": {
+        "value": "#66CB9F",
+        "type": "color"
+      }
+    },
+    "grey": {
+      "100": {
+        "value": "#F5F5F5",
+        "type": "color"
+      },
+      "200": {
+        "value": "#EBEBEB",
+        "type": "color"
+      },
+      "300": {
+        "value": "#D6D6D6",
+        "type": "color"
+      },
+      "400": {
+        "value": "#B8B8B8",
+        "type": "color"
+      },
+      "500": {
+        "value": "#707070",
+        "type": "color"
+      },
+      "600": {
+        "value": "#474747",
+        "type": "color"
+      },
+      "700": {
+        "value": "#333333",
+        "type": "color"
+      },
+      "800": {
+        "value": "#232323",
+        "type": "color"
+      },
+      "900": {
+        "value": "#0A0A0A",
+        "type": "color"
+      }
+    },
+    "white": {
+      "value": "#FFFFFF",
+      "type": "color"
+    },
+    "bluegrey": {
+      "200": {
+        "value": "#DFE7EA",
+        "type": "color"
+      },
+      "400": {
+        "value": "#ADB9C3",
+        "type": "color"
+      },
+      "500": {
+        "value": "#7A8A9C",
+        "type": "color"
+      },
+      "600": {
+        "value": "#4F758B",
+        "type": "color"
+      }
+    },
+    "blue": {
+      "700": {
+        "value": "#364B73",
+        "type": "color"
+      },
+      "800": {
+        "value": "#1D3461",
+        "type": "color",
+        "description": "Electrolux Blue"
+      },
+      "900": {
+        "value": "#041e50",
+        "type": "color",
+        "description": "Electrolux Blue"
+      }
+    },
+    "crimson": {
+      "500": {
+        "value": "#CF132F",
+        "type": "color",
+        "description": "AEG Primary Red"
+      }
+    },
+    "amber": {
+      "500": {
+        "value": "#E1AD01",
+        "type": "color",
+        "description": "AEG Amber"
+      }
+    },
+    "berry": {
+      "500": {
+        "value": "#EF405A",
+        "type": "color",
+        "description": "Frigidaire Primary Berry"
+      }
+    },
+    "easternBlue": {
+      "500": {
+        "value": "#3A9BDC",
+        "type": "color",
+        "description": "Frigidaire Eastern Blue"
+      }
+    },
+    "none": {
+      "value": "rgba(255, 255 ,255, 0)",
+      "type": "color",
+      "description": "No fill color"
+    },
+    "sapphire": {
+      "500": {
+        "value": "#4C6FFF",
+        "type": "color"
+      },
+      "600": {
+        "value": "#274FF3",
+        "type": "color",
+        "description": "Temporary color, NOT on brand"
+      }
+    }
+  },
+  "opacity": {
+    "12": {
+      "value": "12%",
+      "type": "opacity"
+    },
+    "24": {
+      "value": "24%",
+      "type": "opacity"
+    },
+    "40": {
+      "value": "40%",
+      "type": "opacity"
+    },
+    "64": {
+      "value": "64%",
+      "type": "opacity"
+    },
+    "88": {
+      "value": "88%",
+      "type": "opacity"
+    },
+    "100": {
+      "value": "100%",
+      "type": "opacity"
+    },
+    "00": {
+      "value": "0%",
+      "type": "opacity"
+    }
+  },
+  "shadow": {
+    "00": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "01": {
+      "value": {
+        "x": "0",
+        "y": "2",
+        "blur": "3",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.16)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "02": {
+      "value": {
+        "x": "0",
+        "y": "4",
+        "blur": "5",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.16)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "03": {
+      "value": [
+        {
+          "x": "0",
+          "y": "2",
+          "blur": "3",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.05)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "8",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.16)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "04": {
+      "value": [
+        {
+          "x": "0",
+          "y": "3",
+          "blur": "4",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.08)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "12",
+          "blur": "17",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.16)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "05": {
+      "value": [
+        {
+          "x": "0",
+          "y": "4",
+          "blur": "5",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.08)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "16",
+          "blur": "24",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.16)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "06": {
+      "value": [
+        {
+          "x": "0",
+          "y": "4",
+          "blur": "8",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.08)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "24",
+          "blur": "38",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.16)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    }
+  }
+}

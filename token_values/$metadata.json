@@ -1,0 +1,13 @@
+{
+  "tokenSetOrder": [
+    "reference",
+    "component/button",
+    "component/card",
+    "component/formcontrol",
+    "component/toggle",
+    "decision/base",
+    "brand/elux/dark",
+    "brand/aeg/dark",
+    "brand/frig/dark"
+  ]
+}

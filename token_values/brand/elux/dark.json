@@ -1,0 +1,32 @@
+{
+  "font": {
+    "family": {
+      "default": {
+        "value": "{font.family.electroluxsans}",
+        "type": "fontFamilies"
+      }
+    },
+    "sizeMultiplier": {
+      "theme": {
+        "value": "{font.sizeMultiplier.01}",
+        "type": "fontSizes"
+      }
+    }
+  },
+  "color": {
+    "theme": {
+      "primary": {
+        "normal": {
+          "value": "{color.bluegrey.500}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "normal": {
+          "value": "{color.white}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
