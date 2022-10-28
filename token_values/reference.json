@@ -490,7 +490,8 @@
     "ecogreen": {
       "500": {
         "value": "#64CB9F",
-        "type": "color"
+        "type": "color",
+        "description": "ffff"
       }
     },
     "grey": {
