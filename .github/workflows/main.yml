@@ -7,9 +7,9 @@ jobs:
     steps:
       - name: Action test
         id: test
-        uses: pabloromeroelux/pabloactiontest@v1.0.0 # Uses an action in the root directory
+        uses: pabloromeroelux/pabloactiontest@v1.0.1 # Uses an action in the root directory
         with:
-          milliseconds: 200
+          key: $SUPERNOVA_AUTH_TOKEN
           # Use the output from the `hello` step
       - name: Get the output milliseconds
-        run: echo "The time was ${{ steps.test.outputs.time }}"
+        run: echo "Key received? ${{ steps.test.outputs.response }}"
