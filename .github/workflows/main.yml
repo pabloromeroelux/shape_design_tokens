@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Sync Figma Tokens and Supernova
     steps:
+    - name: Checkout
+        uses: actions/checkout@v3
       - name: Get Tokens Data
         id: tokens_data
         uses: ./get_tokens_data
