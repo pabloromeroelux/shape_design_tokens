@@ -8909,14 +8909,9 @@ var __webpack_exports__ = {};
 
 var core = __nccwpck_require__(2619);
 var axios = __nccwpck_require__(9707);
-axios
-  .get("../../../token_values/reference.json")
-  .then(function (dara) {
-    core.setOutput("data", JSON.stringify(data));
-  })
-  .catch(function () {
-    core.setOutput("data", JSON.stringify({}));
-  });
+axios.get("../../../token_values/reference.json").then(function (dara) {
+  core.setOutput("data", JSON.stringify(data));
+});
 
 })();
 
