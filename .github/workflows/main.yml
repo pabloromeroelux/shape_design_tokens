@@ -6,6 +6,10 @@ jobs:
     name: Job to do stuff
     steps:
       - name: Action test
+        id: test
         uses: pabloromeroelux/pabloactiontest@v1.0.0 # Uses an action in the root directory
         with:
           milliseconds: 200
+          # Use the output from the `hello` step
+      - name: Get the output milliseconds
+        run: echo "The time was ${{ steps.test.outputs.time }}"
