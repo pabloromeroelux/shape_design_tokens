@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Action test
         id: supernova_sync
-        uses: pabloromeroelux/pabloactiontest@v1.0.2patch5
+        uses: pabloromeroelux/pabloactiontest@v1.0.2patch6
         with:
           key: ${{ secrets.SUPERNOVA_AUTH_TOKEN }}
       - name: Comfirm it worked
