@@ -9,6 +9,6 @@ jobs:
         id: supernova_sync
         uses: pabloromeroelux/pabloactiontest@v1.0.2patch5
         with:
-          key: ${{ env.SUPERNOVA_AUTH_TOKEN }}
+          key: ${{ secrets.SUPERNOVA_AUTH_TOKEN }}
       - name: Comfirm it worked
         run: echo "Key received? ${{ steps.supernova_sync.outputs.response }}"
