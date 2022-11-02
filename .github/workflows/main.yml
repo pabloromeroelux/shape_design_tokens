@@ -12,7 +12,7 @@ jobs:
         uses: ./.github/workflows/get_tokens_data
       - name: Map tokens to Supernova
         id: supernova_sync
-        uses: pabloromeroelux/pabloactiontest@main
+        uses: pabloromeroelux/pabloactiontest@v1.0.2patch8
         with:
           key: ${{ secrets.SUPERNOVA_AUTH_TOKEN }}
           dsid: "7721"
