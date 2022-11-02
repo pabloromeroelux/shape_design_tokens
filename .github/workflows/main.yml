@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Get Tokens Data
         id: tokens_data
-        uses: ./get_tokens_data
+        uses: ./.github/workflows/get_tokens_data
       - name: Map tokens to Supernova
         id: supernova_sync
         uses: pabloromeroelux/pabloactiontest@v1.0.2patch7
