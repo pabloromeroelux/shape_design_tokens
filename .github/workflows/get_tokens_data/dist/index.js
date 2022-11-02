@@ -2821,7 +2821,7 @@ var __webpack_exports__ = {};
 
 var core = __nccwpck_require__(619);
 var config = (__nccwpck_require__(147).readFileSync)(
-  "../../../token_values/reference.json",
+  "token_values/references.json",
   "utf-8"
 );
 var obj = JSON.parse(config);
