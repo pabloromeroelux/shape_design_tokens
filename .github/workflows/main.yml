@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Action test
         id: supernova_sync
-        uses: pabloromeroelux/pabloactiontest@v1.0.2patch3 # Uses an action in the root directory
+        uses: pabloromeroelux/pabloactiontest@v1.0.2patch4 # Uses an action in the root directory
         with:
           key: $SUPERNOVA_AUTH_TOKEN
           # Use the output from the `hello` step
