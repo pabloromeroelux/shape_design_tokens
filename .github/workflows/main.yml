@@ -7,9 +7,8 @@ jobs:
     steps:
       - name: Action test
         id: supernova_sync
-        uses: pabloromeroelux/pabloactiontest@v1.0.2patch4 # Uses an action in the root directory
+        uses: pabloromeroelux/pabloactiontest@v1.0.2patch5
         with:
           key: $SUPERNOVA_AUTH_TOKEN
-          # Use the output from the `hello` step
       - name: Comfirm it worked
         run: echo "Key received? ${{ steps.supernova_sync.outputs.response }}"
