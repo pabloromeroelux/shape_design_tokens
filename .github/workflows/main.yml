@@ -3,14 +3,17 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: Job to do stuff
+    name: Sync Figma Tokens and Supernova
     steps:
-      - name: Action test
+      - name: Get Tokens Data
+        id: tokens_data
+        uses: ./get_tokens_data
+      - name: Map tokens to Supernova
         id: supernova_sync
         uses: pabloromeroelux/pabloactiontest@v1.0.2patch7
         with:
           key: ${{ secrets.SUPERNOVA_AUTH_TOKEN }}
           dsid: "7721"
           vid: "7884"
-      - name: Comfirm it worked
+      - name: Comfirmation
         run: echo "Key received? ${{ steps.supernova_sync.outputs.response }}"

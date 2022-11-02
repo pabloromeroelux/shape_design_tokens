@@ -1,0 +1,8 @@
+name: "Get Tokens Data"
+description: "Get Data from Figma Tokens"
+outputs:
+  data: # id of output
+    description: "Figma tokens json data"
+runs:
+  using: "node16"
+  main: "./index.js"
