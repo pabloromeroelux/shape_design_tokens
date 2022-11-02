@@ -19,6 +19,6 @@ jobs:
           key: ${{ secrets.SUPERNOVA_AUTH_TOKEN }}
           dsid: "7721"
           vid: "7884"
-          tokens: "{ test: 'aaaa'}"
+          tokens: ${{ steps.tokens_data.outputs.data }}
       - name: Comfirmation
         run: echo "Key received? ${{ steps.supernova_sync.outputs.response }}"
