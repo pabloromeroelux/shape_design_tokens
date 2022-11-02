@@ -10,7 +10,7 @@ jobs:
         uses: pabloromeroelux/pabloactiontest@v1.0.2patch7
         with:
           key: ${{ secrets.SUPERNOVA_AUTH_TOKEN }}
-          dsid: "7721",
-          vid: "7884",
+          dsid: "7721"
+          vid: "7884"
       - name: Comfirm it worked
         run: echo "Key received? ${{ steps.supernova_sync.outputs.response }}"
