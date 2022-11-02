@@ -10,6 +10,8 @@ jobs:
       - name: Get Tokens Data
         id: tokens_data
         uses: ./.github/workflows/get_tokens_data
+      - name: Log
+        run: echo "data ${{ steps.tokens_data.outputs.data }}"
       - name: Map tokens to Supernova
         id: supernova_sync
         uses: pabloromeroelux/pabloactiontest@main
