@@ -3,5 +3,5 @@
 var core = require("@actions/core");
 var config = require("fs").readFileSync("token_values/reference.json", "utf-8");
 var obj = JSON.parse(config);
-
-core.setOutput("data", JSON.stringify(obj));
+var data = { reference: obj };
+core.setOutput("data", JSON.stringify(data));
