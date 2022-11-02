@@ -6,6 +6,6 @@ jobs:
     name: Job to do stuff
     steps:
       - name: Action test
-        uses: pabloromeroelux/pabloactiontest@v1 # Uses an action in the root directory
+        uses: pabloromeroelux/pabloactiontest # Uses an action in the root directory
         with:
           milliseconds: 200
