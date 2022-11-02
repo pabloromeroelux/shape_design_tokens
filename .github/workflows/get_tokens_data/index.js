@@ -1,3 +1,12 @@
-var core = require("@actions/core");
+// https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action
 
-core.setOutput("data", JSON.stringify({ data: "test" }));
+var core = require("@actions/core");
+var axios = require("axios");
+axios
+  .get("../../../token_values/reference.json")
+  .then(function (dara) {
+    core.setOutput("data", JSON.stringify(data));
+  })
+  .catch(function () {
+    core.setOutput("data", JSON.stringify({}));
+  });
