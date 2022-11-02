@@ -2,11 +2,6 @@
 
 var core = require("@actions/core");
 var axios = require("axios");
-axios
-  .get("../../../token_values/reference.json")
-  .then(function (dara) {
-    core.setOutput("data", JSON.stringify(data));
-  })
-  .catch(function () {
-    core.setOutput("data", JSON.stringify({}));
-  });
+axios.get("../../../token_values/reference.json").then(function (dara) {
+  core.setOutput("data", JSON.stringify(data));
+});
