@@ -12,9 +12,8 @@ jobs:
         uses: ./.github/workflows/get_tokens_data
       - name: Log
         run: echo "data ${{ steps.tokens_data.outputs.data }}"
-      - name: Commit
-        uses: EndBug/add-and-commit@v9
-        add: "--all"
+     - name: Add & Commit
+        uses: EndBug/add-and-commit@v9.1.1
         commit: "-m 'unify reference tokens'"
       - name: Map tokens to Supernova
         id: supernova_sync
