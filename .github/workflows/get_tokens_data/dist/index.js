@@ -1762,6 +1762,232 @@ exports.checkBypass = checkBypass;
 
 /***/ }),
 
+/***/ 26:
+/***/ ((module) => {
+
+"use strict";
+
+
+var isMergeableObject = function isMergeableObject(value) {
+	return isNonNullObject(value)
+		&& !isSpecial(value)
+};
+
+function isNonNullObject(value) {
+	return !!value && typeof value === 'object'
+}
+
+function isSpecial(value) {
+	var stringValue = Object.prototype.toString.call(value);
+
+	return stringValue === '[object RegExp]'
+		|| stringValue === '[object Date]'
+		|| isReactElement(value)
+}
+
+// see https://github.com/facebook/react/blob/b5ac963fb791d1298e7f396236383bc955f916c1/src/isomorphic/classic/element/ReactElement.js#L21-L25
+var canUseSymbol = typeof Symbol === 'function' && Symbol.for;
+var REACT_ELEMENT_TYPE = canUseSymbol ? Symbol.for('react.element') : 0xeac7;
+
+function isReactElement(value) {
+	return value.$$typeof === REACT_ELEMENT_TYPE
+}
+
+function emptyTarget(val) {
+	return Array.isArray(val) ? [] : {}
+}
+
+function cloneUnlessOtherwiseSpecified(value, options) {
+	return (options.clone !== false && options.isMergeableObject(value))
+		? deepmerge(emptyTarget(value), value, options)
+		: value
+}
+
+function defaultArrayMerge(target, source, options) {
+	return target.concat(source).map(function(element) {
+		return cloneUnlessOtherwiseSpecified(element, options)
+	})
+}
+
+function getMergeFunction(key, options) {
+	if (!options.customMerge) {
+		return deepmerge
+	}
+	var customMerge = options.customMerge(key);
+	return typeof customMerge === 'function' ? customMerge : deepmerge
+}
+
+function getEnumerableOwnPropertySymbols(target) {
+	return Object.getOwnPropertySymbols
+		? Object.getOwnPropertySymbols(target).filter(function(symbol) {
+			return target.propertyIsEnumerable(symbol)
+		})
+		: []
+}
+
+function getKeys(target) {
+	return Object.keys(target).concat(getEnumerableOwnPropertySymbols(target))
+}
+
+function propertyIsOnObject(object, property) {
+	try {
+		return property in object
+	} catch(_) {
+		return false
+	}
+}
+
+// Protects from prototype poisoning and unexpected merging up the prototype chain.
+function propertyIsUnsafe(target, key) {
+	return propertyIsOnObject(target, key) // Properties are safe to merge if they don't exist in the target yet,
+		&& !(Object.hasOwnProperty.call(target, key) // unsafe if they exist up the prototype chain,
+			&& Object.propertyIsEnumerable.call(target, key)) // and also unsafe if they're nonenumerable.
+}
+
+function mergeObject(target, source, options) {
+	var destination = {};
+	if (options.isMergeableObject(target)) {
+		getKeys(target).forEach(function(key) {
+			destination[key] = cloneUnlessOtherwiseSpecified(target[key], options);
+		});
+	}
+	getKeys(source).forEach(function(key) {
+		if (propertyIsUnsafe(target, key)) {
+			return
+		}
+
+		if (propertyIsOnObject(target, key) && options.isMergeableObject(source[key])) {
+			destination[key] = getMergeFunction(key, options)(target[key], source[key], options);
+		} else {
+			destination[key] = cloneUnlessOtherwiseSpecified(source[key], options);
+		}
+	});
+	return destination
+}
+
+function deepmerge(target, source, options) {
+	options = options || {};
+	options.arrayMerge = options.arrayMerge || defaultArrayMerge;
+	options.isMergeableObject = options.isMergeableObject || isMergeableObject;
+	// cloneUnlessOtherwiseSpecified is added to `options` so that custom arrayMerge()
+	// implementations can use it. The caller may not replace it.
+	options.cloneUnlessOtherwiseSpecified = cloneUnlessOtherwiseSpecified;
+
+	var sourceIsArray = Array.isArray(source);
+	var targetIsArray = Array.isArray(target);
+	var sourceAndTargetTypesMatch = sourceIsArray === targetIsArray;
+
+	if (!sourceAndTargetTypesMatch) {
+		return cloneUnlessOtherwiseSpecified(source, options)
+	} else if (sourceIsArray) {
+		return options.arrayMerge(target, source, options)
+	} else {
+		return mergeObject(target, source, options)
+	}
+}
+
+deepmerge.all = function deepmergeAll(array, options) {
+	if (!Array.isArray(array)) {
+		throw new Error('first argument should be an array')
+	}
+
+	return array.reduce(function(prev, next) {
+		return deepmerge(prev, next, options)
+	}, {})
+};
+
+var deepmerge_1 = deepmerge;
+
+module.exports = deepmerge_1;
+
+
+/***/ }),
+
+/***/ 543:
+/***/ ((module) => {
+
+/*
+  change for npm modules.
+  by Luiz Estácio.
+
+  json-format v.1.1
+  http://github.com/phoboslab/json-format
+
+  Released under MIT license:
+  http://www.opensource.org/licenses/mit-license.php
+*/
+var p = [],
+  indentConfig = {
+    tab: { char: '\t', size: 1 },
+    space: { char: ' ', size: 4 }
+  },
+  configDefault = {
+    type: 'tab'
+  },
+  push = function( m ) { return '\\' + p.push( m ) + '\\'; },
+  pop = function( m, i ) { return p[i-1] },
+  tabs = function( count, indentType) { return new Array( count + 1 ).join( indentType ); };
+
+function JSONFormat ( json, indentType ) {
+  p = [];
+  var out = "",
+      indent = 0;
+
+  // Extract backslashes and strings
+  json = json
+    .replace( /\\./g, push )
+    .replace( /(".*?"|'.*?')/g, push )
+    .replace( /\s+/, '' );    
+
+  // Indent and insert newlines
+  for( var i = 0; i < json.length; i++ ) {
+    var c = json.charAt(i);
+
+    switch(c) {
+      case '{':
+      case '[':
+        out += c + "\n" + tabs(++indent, indentType);
+        break;
+      case '}':
+      case ']':
+        out += "\n" + tabs(--indent, indentType) + c;
+        break;
+      case ',':
+        out += ",\n" + tabs(indent, indentType);
+        break;
+      case ':':
+        out += ": ";
+        break;
+      default:
+        out += c;
+        break;      
+    }         
+  }
+
+  // Strip whitespace from numeric arrays and put backslashes 
+  // and strings back in
+  out = out
+    .replace( /\[[\d,\s]+?\]/g, function(m){ return m.replace(/\s/g,''); } )
+    .replace( /\\(\d+)\\/g, pop ) // strings
+    .replace( /\\(\d+)\\/g, pop ); // backslashes in strings
+
+  return out;
+};
+
+module.exports = function(json, config){
+  config = config || configDefault;
+  var indent = indentConfig[config.type];
+
+  if ( indent == null ) {
+    throw new Error('Unrecognized indent type: "' + config.type + '"');
+  }
+  var indentType = new Array((config.size || indent.size) + 1).join(indent.char);
+  return JSONFormat(JSON.stringify(json), indentType);
+}
+
+
+/***/ }),
+
 /***/ 237:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
@@ -2821,22 +3047,51 @@ var __webpack_exports__ = {};
 // ncc build index.js --license licenses.txt
 
 const core = __nccwpck_require__(619);
+const fs = __nccwpck_require__(147);
+const merge = __nccwpck_require__(26);
+var jsonFormat = __nccwpck_require__(543);
+
+function compare(a, b) {
+  if (a.date < b.date) {
+    return -1;
+  }
+  if (a.date > b.date) {
+    return 1;
+  }
+  return 0;
+}
 
 const paths = [
-  "../../../../token_values/web/reference.json",
-  "../../../../token_values/native/reference.json",
-  "../../../../token_values/product/reference.json",
+  "token_values/mobile/reference.json",
+  "token_values/product/reference.json",
+  "token_values/web/reference.json",
 ];
 
-const updates = paths.map((path) => {
-  const stats = fs.statSync(path);
-  var mtime = stats.mtime;
-  return mtime;
+var jsonConfig = {
+  type: "space",
+  size: 2,
+};
+
+const updates = paths
+  .map((path, i) => {
+    const stats = fs.statSync(path);
+    var mtime = stats.mtime;
+    return { path: paths[i], date: new Date(mtime) };
+  })
+  .sort(compare);
+
+const filesContent = updates.map((f) =>
+  JSON.parse(fs.readFileSync(f.path, "utf-8"))
+);
+
+const output = merge.all(filesContent);
+
+updates.forEach((f) => {
+  fs.unlinkSync(f.path);
+  fs.writeFileSync(f.path, jsonFormat(output, jsonConfig));
 });
 
-console.log(updates);
-
-const config = (__nccwpck_require__(147).readFileSync)(paths[0], "utf-8");
+const config = fs.readFileSync(paths[0], "utf-8");
 
 const obj = JSON.parse(config);
 const data = { reference: obj };
