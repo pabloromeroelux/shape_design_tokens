@@ -2820,10 +2820,13 @@ var __webpack_exports__ = {};
 // https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action
 
 var core = __nccwpck_require__(619);
-var config = (__nccwpck_require__(147).readFileSync)("token_values/reference.json", "utf-8");
+var config = (__nccwpck_require__(147).readFileSync)(
+  "token_values/web/reference.json",
+  "utf-8"
+);
 var obj = JSON.parse(config);
-
-core.setOutput("data", JSON.stringify(obj));
+var data = { reference: obj };
+core.setOutput("data", JSON.stringify(data));
 
 })();
 
