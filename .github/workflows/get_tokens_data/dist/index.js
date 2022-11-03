@@ -3080,6 +3080,8 @@ const updates = paths
   })
   .sort(compare);
 
+core.setOutput("updates", JSON.stringify(updates));
+
 const filesContent = updates.map((f) =>
   JSON.parse(fs.readFileSync(f.path, "utf-8"))
 );
