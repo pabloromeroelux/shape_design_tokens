@@ -1,10 +1,53 @@
 // https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action
+// ncc build index.js --license licenses.txt
 
-var core = require("@actions/core");
-var config = require("fs").readFileSync(
+const core = require("@actions/core");
+const fs = require("fs");
+const merge = require("deepmerge");
+var jsonFormat = require("json-format");
+
+function compare(a, b) {
+  if (a.date < b.date) {
+    return -1;
+  }
+  if (a.date > b.date) {
+    return 1;
+  }
+  return 0;
+}
+
+const paths = [
+  "token_values/mobile/reference.json",
+  "token_values/product/reference.json",
   "token_values/web/reference.json",
-  "utf-8"
+];
+
+var jsonConfig = {
+  type: "space",
+  size: 2,
+};
+
+const updates = paths
+  .map((path, i) => {
+    const stats = fs.statSync(path);
+    var mtime = stats.mtime;
+    return { path: paths[i], date: new Date(mtime) };
+  })
+  .sort(compare);
+
+const filesContent = updates.map((f) =>
+  JSON.parse(fs.readFileSync(f.path, "utf-8"))
 );
-var obj = JSON.parse(config);
-var data = { reference: obj };
+
+const output = merge.all(filesContent);
+
+updates.forEach((f) => {
+  fs.unlinkSync(f.path);
+  fs.writeFileSync(f.path, jsonFormat(output, jsonConfig));
+});
+
+const config = fs.readFileSync(paths[0], "utf-8");
+
+const obj = JSON.parse(config);
+const data = { reference: obj };
 core.setOutput("data", JSON.stringify(data));

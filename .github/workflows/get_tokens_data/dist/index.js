@@ -2818,14 +2818,28 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 // https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action
+// ncc build index.js --license licenses.txt
 
-var core = __nccwpck_require__(619);
-var config = (__nccwpck_require__(147).readFileSync)(
-  "token_values/web/reference.json",
-  "utf-8"
-);
-var obj = JSON.parse(config);
-var data = { reference: obj };
+const core = __nccwpck_require__(619);
+
+const paths = [
+  "../../../../token_values/web/reference.json",
+  "../../../../token_values/native/reference.json",
+  "../../../../token_values/product/reference.json",
+];
+
+const updates = paths.map((path) => {
+  const stats = fs.statSync(path);
+  var mtime = stats.mtime;
+  return mtime;
+});
+
+console.log(updates);
+
+const config = (__nccwpck_require__(147).readFileSync)(paths[0], "utf-8");
+
+const obj = JSON.parse(config);
+const data = { reference: obj };
 core.setOutput("data", JSON.stringify(data));
 
 })();
