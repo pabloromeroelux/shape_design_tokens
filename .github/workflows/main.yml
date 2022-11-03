@@ -13,7 +13,7 @@ jobs:
       - name: Log
         run: echo "data ${{ steps.tokens_data.outputs.data }}"
       - name: Commit
-      - uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v9
         add: "--all"
         commit: "-m 'unify reference tokens'"
       - name: Map tokens to Supernova
