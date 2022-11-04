@@ -35,3 +35,13 @@ jobs:
           author_name: pabloromeroelux
           committer_email: pablo.romero-jaren@electrolux.com
           committer_name: pabloromeroelux
+      - name: Map tokens to Supernova
+        id: supernova_sync
+        uses: pabloromeroelux/figma_supernova_tokens_sync_action@main
+        with:
+          key: ${{ secrets.SUPERNOVA_AUTH_TOKEN }}
+          dsid: "7721"
+          vid: "7884"
+          tokens: ${{ steps.tokens_data.outputs.data }}
+      - name: Comfirmation
+        run: echo "Key received? ${{ steps.supernova_sync.outputs.response }}"

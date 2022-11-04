@@ -2931,6 +2931,8 @@ if (path) {
     fs.writeFileSync(f, jsonFormat(data, jsonConfig));
   });
   core.setOutput("data", data);
+} else {
+  core.setOutput("data", {});
 }
 
 core.setOutput("updates", core.getInput("changes"));
