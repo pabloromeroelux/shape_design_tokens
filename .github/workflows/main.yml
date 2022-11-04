@@ -8,9 +8,10 @@ on:
       - "token_values/**"
 
 jobs:
-  hello_world_job:
-    runs-on: ubuntu-latest
+  supernova_sync:
     name: Sync Figma Tokens and Supernova
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'sync reference')"
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -36,4 +37,5 @@ jobs:
           changes: ${{ steps.changed-files.outputs.all_changed_files }}
       - run: echo "references changed ${{ steps.tokens_data.outputs.updates }}"
       - name: Add & Commit
+        message: "sync reference"
         uses: EndBug/add-and-commit@v9.1.1
