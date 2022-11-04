@@ -1,3 +1,4 @@
+name: "Supernova Sync"
 on: ["push"]
 
 jobs:
