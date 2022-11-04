@@ -3,7 +3,6 @@
 
 const core = require("@actions/core");
 const fs = require("fs");
-const merge = require("deepmerge");
 var jsonFormat = require("json-format");
 
 const prefix = "";

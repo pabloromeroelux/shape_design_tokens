@@ -26,3 +26,4 @@ jobs:
         uses: ./.github/workflows/get_tokens_data
         with:
           changes: ${{ steps.changed-files.outputs.all_changed_files }}
+      - run: echo "references changed ${{ steps.tokens_data.outputs.updates }}"
