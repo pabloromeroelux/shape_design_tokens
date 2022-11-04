@@ -32,8 +32,8 @@ var jsonConfig = {
 const updates = paths
   .map((path, i) => {
     const stats = fs.statSync(path);
-    var mtime = stats.mtime;
-    return { path: paths[i], date: new Date(mtime) };
+    var mtime = stats.mtimeMs;
+    return { path: paths[i], date: mtime };
   })
   .sort(compare);
 
