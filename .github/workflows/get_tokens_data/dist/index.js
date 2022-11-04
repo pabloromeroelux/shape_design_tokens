@@ -2932,7 +2932,7 @@ if (path) {
   });
 }
 
-core.setOutput("updates", updatedPaths.length);
+core.setOutput("updates", core.getInput("changes"));
 
 const config = fs.readFileSync(referencePaths[0], "utf-8");
 const obj = JSON.parse(config);
