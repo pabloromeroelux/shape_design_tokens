@@ -30,7 +30,7 @@ if (path) {
 
 core.setOutput("updates", updatedPaths.length);
 
-const config = fs.readFileSync(paths[0], "utf-8");
+const config = fs.readFileSync(referencePaths[0], "utf-8");
 const obj = JSON.parse(config);
 const data = { reference: obj };
 core.setOutput("data", JSON.stringify(data));
