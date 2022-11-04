@@ -1,5 +1,8 @@
 name: "Get Tokens Data"
 description: "Get Data from Figma Tokens"
+inputs:
+  changes:
+    description: "Path to changed files"
 outputs:
   data: # id of output
     description: "Figma tokens json data"

@@ -6,52 +6,32 @@ const fs = require("fs");
 const merge = require("deepmerge");
 var jsonFormat = require("json-format");
 
-function compare(a, b) {
-  if (a.date < b.date) {
-    return -1;
-  }
-  if (a.date > b.date) {
-    return 1;
-  }
-  return 0;
-}
-
 const prefix = "";
-
-const paths = [
+const referencePaths = [
   `${prefix}token_values/mobile/reference.json`,
   `${prefix}token_values/product/reference.json`,
   `${prefix}token_values/web/reference.json`,
 ];
+
+const updatedPaths = Array(core.getInput("changes"));
+const path = updatedPaths[0];
 
 var jsonConfig = {
   type: "space",
   size: 2,
 };
 
-const updates = paths
-  .map((path, i) => {
-    const stats = fs.statSync(path);
-    var mtime = stats.ctimeMs;
-    return { path: paths[i], date: mtime };
-  })
-  .sort(compare);
+if (path) {
+  const data = JSON.parse(fs.readFileSync(f.path, "utf-8"));
+  referencePaths.forEach((f) => {
+    fs.unlinkSync(f);
+    fs.writeFileSync(f, jsonFormat(data, jsonConfig));
+  });
+}
 
-core.setOutput("updates", JSON.stringify(updates));
-
-const filesContent = updates.map((f) =>
-  JSON.parse(fs.readFileSync(f.path, "utf-8"))
-);
-
-const output = merge.all(filesContent);
-
-updates.forEach((f) => {
-  fs.unlinkSync(f.path);
-  fs.writeFileSync(f.path, jsonFormat(output, jsonConfig));
-});
+core.setOutput("updates", updatedPaths.length);
 
 const config = fs.readFileSync(paths[0], "utf-8");
-
 const obj = JSON.parse(config);
 const data = { reference: obj };
 core.setOutput("data", JSON.stringify(data));

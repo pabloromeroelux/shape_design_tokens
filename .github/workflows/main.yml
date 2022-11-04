@@ -21,3 +21,8 @@ jobs:
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo "$file was changed"
           done
+      - name: Update Reference Tokens
+        id: tokens_data
+        uses: ./.github/workflows/get_tokens_data
+        with:
+          changes: ${{ steps.changed-files.outputs.all_changed_files }}
