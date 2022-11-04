@@ -2,7 +2,7 @@
   "color": {
     "grey": {
       "100": {
-        "value": "pinks",
+        "value": "#CCCCCC",
         "type": "color"
       }
     }
