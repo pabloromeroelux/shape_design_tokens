@@ -21,20 +21,3 @@ jobs:
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo "$file was changed"
           done
-      - name: Get Tokens Data
-        id: tokens_data
-        uses: ./.github/workflows/get_tokens_data
-      - name: Log
-        run: echo "data ${{ steps.tokens_data.outputs.updates  }}"
-      - name: Add & Commit
-        uses: EndBug/add-and-commit@v9.1.1
-      - name: Map tokens to Supernova
-        id: supernova_sync
-        uses: pabloromeroelux/figma_supernova_tokens_sync_action@main
-        with:
-          key: ${{ secrets.SUPERNOVA_AUTH_TOKEN }}
-          dsid: "7721"
-          vid: "7884"
-          tokens: ${{ steps.tokens_data.outputs.data }}
-      - name: Comfirmation
-        run: echo "Key received? ${{ steps.supernova_sync.outputs.response }}"
