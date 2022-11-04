@@ -32,7 +32,7 @@ var jsonConfig = {
 const updates = paths
   .map((path, i) => {
     const stats = fs.statSync(path);
-    var mtime = stats.mtimeMs;
+    var mtime = stats.ctimeMs;
     return { path: paths[i], date: mtime };
   })
   .sort(compare);
