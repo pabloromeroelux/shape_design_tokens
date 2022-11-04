@@ -4,6 +4,8 @@ on:
     # Sequence of patterns matched against refs/heads
     branches:
       - main
+    paths:
+      - "token_values"
 
 jobs:
   hello_world_job:
