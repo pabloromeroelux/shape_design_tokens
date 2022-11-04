@@ -7,6 +7,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: restore timestamps
+        uses: chetan/git-restore-mtime-action@v1
       - name: Get Tokens Data
         id: tokens_data
         uses: ./.github/workflows/get_tokens_data
