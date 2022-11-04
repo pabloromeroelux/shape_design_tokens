@@ -16,10 +16,12 @@ function compare(a, b) {
   return 0;
 }
 
+const prefix = "";
+
 const paths = [
-  "token_values/mobile/reference.json",
-  "token_values/product/reference.json",
-  "token_values/web/reference.json",
+  `${prefix}token_values/mobile/reference.json`,
+  `${prefix}token_values/product/reference.json`,
+  `${prefix}token_values/web/reference.json`,
 ];
 
 var jsonConfig = {
