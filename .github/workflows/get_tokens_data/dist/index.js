@@ -2925,19 +2925,15 @@ var jsonConfig = {
 };
 
 if (path) {
-  const data = JSON.parse(fs.readFileSync(f.path, "utf-8"));
+  const data = JSON.parse(fs.readFileSync(path, "utf-8"));
   referencePaths.forEach((f) => {
     fs.unlinkSync(f);
     fs.writeFileSync(f, jsonFormat(data, jsonConfig));
   });
+  core.setOutput("data", data);
 }
 
 core.setOutput("updates", core.getInput("changes"));
-
-const config = fs.readFileSync(referencePaths[0], "utf-8");
-const obj = JSON.parse(config);
-const data = { reference: obj };
-core.setOutput("data", JSON.stringify(data));
 
 })();
 
