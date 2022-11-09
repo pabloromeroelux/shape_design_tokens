@@ -30,15 +30,15 @@
     },
     "onContainer": {
       "normal": {
-        "value": "{color.blue-gray.50}",
+        "value": "{color.blue.50}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.blue-teal.200}",
+        "value": "{color.blue.200}",
         "type": "color"
       },
       "disabled": {
-        "value": "{color.blue-teal.550}",
+        "value": "{color.blue.600}",
         "type": "color"
       }
     },
