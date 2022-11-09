@@ -6,6 +6,28 @@
         "type": "color"
       }
     },
+    "container": {
+      "normal": {
+        "value": "{color.blue-gray.700}",
+        "type": "color"
+      },
+      "hovered": {
+        "value": "{color.blue-gray.800}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{color.blue-gray.750}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{color.blue-gray.800}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.blue.1000}",
+        "type": "color"
+      }
+    },
     "primary": {
       "normal": {
         "value": "{color.blue.150}",
