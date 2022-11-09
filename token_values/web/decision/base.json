@@ -114,6 +114,114 @@
         "type": "color"
       }
     },
+    "success": {
+      "normal": {
+        "value": "{color.green.400}",
+        "type": "color"
+      },
+      "hovered": {
+        "value": "{color.green.500}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{color.green.450}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{color.green.500}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.green.700}",
+        "type": "color"
+      }
+    },
+    "onSuccess": {
+      "normal": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.blue.850}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.blue.500}",
+        "type": "color"
+      }
+    },
+    "danger": {
+      "normal": {
+        "value": "{color.red.400}",
+        "type": "color"
+      },
+      "hovered": {
+        "value": "{color.red.500}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{color.red.450}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{color.red.500}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.red.700}",
+        "type": "color"
+      }
+    },
+    "onDanger": {
+      "normal": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.red.850}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.red.500}",
+        "type": "color"
+      }
+    },
+    "warning": {
+      "normal": {
+        "value": "{color.orange.400}",
+        "type": "color"
+      },
+      "hovered": {
+        "value": "{color.orange.500}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{color.orange.450}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{color.orange.500}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.orange.700}",
+        "type": "color"
+      }
+    },
+    "onWarning": {
+      "normal": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.orange.850}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.orange.500}",
+        "type": "color"
+      }
+    },
     "black": {
       "value": "#000000",
       "type": "color"
