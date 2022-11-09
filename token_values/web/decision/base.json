@@ -41,6 +41,43 @@
         "value": "{color.blue.600}",
         "type": "color"
       }
+    },
+
+    "secondary": {
+      "normal": {
+        "value": "{color.blue-teal.400}",
+        "type": "color"
+      },
+      "hovered": {
+        "value": "{color.blue-teal.500}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{color.blue-teal.450}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{color.blue-teal.500}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.blue-teal.700}",
+        "type": "color"
+      }
+    },
+    "onSecondary": {
+      "normal": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.blue-teal.850}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.blue-teal.500}",
+        "type": "color"
+      }
     }
   }
 }
