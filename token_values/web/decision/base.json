@@ -78,6 +78,42 @@
         "type": "color"
       }
     },
+    "quaternary": {
+      "normal": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "hovered": {
+        "value": "{color.blue.900}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{color.blue.950}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{color.blue.900}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.blue.1000}",
+        "type": "color"
+      }
+    },
+    "onQuaternary": {
+      "normal": {
+        "value": "{color.blue.50}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.blue.350}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.blue.550}",
+        "type": "color"
+      }
+    },
     "black": {
       "value": "#000000",
       "type": "color"
