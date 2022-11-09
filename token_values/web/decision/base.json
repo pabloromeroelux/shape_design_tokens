@@ -28,6 +28,20 @@
         "type": "color"
       }
     },
+    "onContainer": {
+      "normal": {
+        "value": "{color.blue-gray.50}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.blue-teal.200}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.blue-teal.550}",
+        "type": "color"
+      }
+    },
     "primary": {
       "normal": {
         "value": "{color.blue.150}",
