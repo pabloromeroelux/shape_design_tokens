@@ -189,15 +189,107 @@
         "type": "color"
       }
     },
+    "success": {
+      "normal": {
+        "value": "{color.green.550}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{color.green.600}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.green.500}",
+        "type": "color"
+      }
+    },
+    "onSuccess": {
+      "normal": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.green.850}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.green.650}",
+        "type": "color"
+      }
+    },
+    "error": {
+      "normal": {
+        "value": "{color.red.550}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{color.red.600}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.red.500}",
+        "type": "color"
+      }
+    },
+    "onError": {
+      "normal": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.red.850}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.red.650}",
+        "type": "color"
+      }
+    },
+    "warning": {
+      "normal": {
+        "value": "{color.orange.550}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{color.orange.600}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.orange.500}",
+        "type": "color"
+      }
+    },
+    "onWarning": {
+      "normal": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.orange.850}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.orange.650}",
+        "type": "color"
+      }
+    },
     "border": {
       "focused": {
         "value": "{color.blue-indigo.550}",
         "type": "color"
+      },
+      "success": {
+        "value": "{color.green.550}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{color.red.550}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{color.orange.550}",
+        "type": "color"
       }
-    },
-    "touchTarget": {
-      "value": "{color.green.550}",
-      "type": "color"
     }
   }
 }
