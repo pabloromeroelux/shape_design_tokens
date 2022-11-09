@@ -42,7 +42,6 @@
         "type": "color"
       }
     },
-
     "secondary": {
       "normal": {
         "value": "{color.blue-teal.400}",
@@ -78,6 +77,14 @@
         "value": "{color.blue-teal.500}",
         "type": "color"
       }
+    },
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "white": {
+      "value": "#FFFFFF",
+      "type": "color"
     }
   }
 }
