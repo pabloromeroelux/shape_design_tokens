@@ -1,5 +1,6 @@
 {
   "tokenSetOrder": [
-    "reference"
+    "reference",
+    "decision/base"
   ]
 }
