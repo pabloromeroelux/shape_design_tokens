@@ -142,7 +142,7 @@
         "type": "color"
       },
       "subtle": {
-        "value": "{color.gree.850}",
+        "value": "{color.green.850}",
         "type": "color"
       },
       "disabled": {
