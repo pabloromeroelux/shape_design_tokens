@@ -7,5 +7,14 @@
       "decision/base": "enabled"
     },
     "$figmaStyleReferences": {}
+  },
+  {
+    "id": "0633cdf3eb26da8c4f7302b3145e66e7d7dd026e",
+    "name": "Agnostic Light",
+    "selectedTokenSets": {
+      "reference": "enabled",
+      "decision/base": "enabled"
+    },
+    "$figmaStyleReferences": {}
   }
 ]
