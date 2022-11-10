@@ -1,5 +1,7 @@
 {
   "tokenSetOrder": [
-    "reference"
+    "reference",
+    "decision/base",
+    "brand/light/electrolux"
   ]
 }
