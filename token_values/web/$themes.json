@@ -5,7 +5,7 @@
     "selectedTokenSets": {
       "reference": "enabled",
       "decision/base": "enabled",
-      "brand/electrolux light": "disabled"
+      "brand/light/electrolux": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -15,7 +15,7 @@
     "selectedTokenSets": {
       "reference": "enabled",
       "decision/base": "enabled",
-      "brand/electrolux light": "disabled"
+      "brand/light/electrolux": "disabled"
     },
     "$figmaStyleReferences": {}
   }
