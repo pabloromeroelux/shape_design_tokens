@@ -186,6 +186,42 @@
         "type": "color"
       }
     },
+    "quaternary": {
+      "normal": {
+        "value": "{color.red.500}",
+        "type": "color"
+      },
+      "hovered": {
+        "value": "{color.red.350}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{color.red.400}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{color.red.350}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.red.750}",
+        "type": "color"
+      }
+    },
+    "onQuaternary": {
+      "normal": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.red.850}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.red.500}",
+        "type": "color"
+      }
+    },
     "inverted": {
       "normal": {
         "value": "{color.white}",
