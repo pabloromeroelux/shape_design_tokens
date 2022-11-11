@@ -1,0 +1,42 @@
+{
+  "font": {
+    "family": {
+      "default": {
+        "value": "{font.family.electroluxSans}",
+        "type": "fontFamilies"
+      }
+    },
+    "sizeMultiplier": {
+      "theme": {
+        "value": "{font.sizeMultiplier.100}",
+        "type": "fontSizes"
+      }
+    },
+    "weight": {
+      "emphasis": {
+        "value": "{font.weight.semibold}",
+        "type": "fontWeights"
+      },
+      "display": {
+        "value": "{font.weight.regular}",
+        "type": "fontWeights"
+      }
+    }
+  },
+  "color": {
+    "theme": {
+      "primary": {
+        "normal": {
+          "value": "{color.indigo.900}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "normal": {
+          "value": "{color.white}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

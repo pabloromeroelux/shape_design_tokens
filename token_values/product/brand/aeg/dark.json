@@ -1,0 +1,52 @@
+{
+  "font": {
+    "family": {
+      "default": {
+        "value": "{font.family.metric}",
+        "type": "fontFamilies"
+      }
+    },
+    "sizeMultiplier": {
+      "theme": {
+        "value": "{font.sizeMultiplier.113}",
+        "type": "fontSizes"
+      }
+    },
+    "weight": {
+      "emphasis": {
+        "value": "{font.weight.medium}",
+        "type": "fontWeights"
+      },
+      "normal": {
+        "value": "{font.weight.regular}",
+        "type": "fontWeights"
+      }
+    },
+    "lineHeight": {
+      "default": {
+        "value": "{font.lineHeight.130}",
+        "type": "lineHeights"
+      },
+      "small": {
+        "value": "{font.lineHeight.115}",
+        "type": "lineHeights"
+      }
+    }
+  },
+  "color": {
+    "theme": {
+      "primary": {
+        "normal": {
+          "value": "{color.amber.600}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "normal": {
+          "value": "{color.carmine.1100}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
