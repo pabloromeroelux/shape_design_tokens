@@ -1,57 +1,55 @@
 {
-  "appliance": {
-    "modal": {
-      "color": {
+  "modal": {
+    "color": {
+      "normal": {
+        "value": "{color.surface.normal}",
+        "type": "color"
+      },
+      "on": {
         "normal": {
-          "value": "{color.surface.normal}",
+          "value": "{color.onSurface.normal}",
           "type": "color"
         },
-        "on": {
-          "normal": {
-            "value": "{color.onSurface.normal}",
-            "type": "color"
-          },
-          "subtle": {
-            "value": "{color.onSurface.subtle}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{color.onSurface.muted}",
-            "type": "color"
-          }
+        "subtle": {
+          "value": "{color.onSurface.subtle}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{color.onSurface.muted}",
+          "type": "color"
         }
+      }
+    },
+    "gap": {
+      "value": "{space.16}",
+      "type": "spacing"
+    },
+    "radius": {
+      "small": {
+        "value": "{radius.xs}",
+        "type": "borderRadius"
       },
-      "gap": {
+      "medium": {
+        "value": "{radius.s}",
+        "type": "borderRadius"
+      },
+      "large": {
+        "value": "{radius.m}",
+        "type": "borderRadius"
+      }
+    },
+    "padding": {
+      "small": {
         "value": "{space.16}",
         "type": "spacing"
       },
-      "radius": {
-        "small": {
-          "value": "{radius.xs}",
-          "type": "borderRadius"
-        },
-        "medium": {
-          "value": "{radius.s}",
-          "type": "borderRadius"
-        },
-        "large": {
-          "value": "{radius.m}",
-          "type": "borderRadius"
-        }
+      "medium": {
+        "value": "{space.20}",
+        "type": "spacing"
       },
-      "padding": {
-        "small": {
-          "value": "{space.16}",
-          "type": "spacing"
-        },
-        "medium": {
-          "value": "{space.20}",
-          "type": "spacing"
-        },
-        "large": {
-          "value": "{space.24}",
-          "type": "spacing"
-        }
+      "large": {
+        "value": "{space.24}",
+        "type": "spacing"
       }
     }
   }
