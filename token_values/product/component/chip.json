@@ -59,15 +59,15 @@
       },
       "radius": {
         "small": {
-          "value": "{appliance.choiceChip.radius.small}+2",
+          "value": "{choiceChip.radius.small}+2",
           "type": "borderRadius"
         },
         "medium": {
-          "value": "{appliance.choiceChip.radius.medium}+2",
+          "value": "{choiceChip.radius.medium}+2",
           "type": "borderRadius"
         },
         "large": {
-          "value": "{appliance.choiceChip.radius.large}+2",
+          "value": "{choiceChip.radius.large}+2",
           "type": "borderRadius"
         }
       },
@@ -175,23 +175,19 @@
           "type": "sizing"
         }
       }
-    }
-  },
-  "appliance": {
-    "choiceChip": {
-      "radius": {
-        "small": {
-          "value": "{radius.xs}",
-          "type": "borderRadius"
-        },
-        "medium": {
-          "value": "{radius.s}",
-          "type": "borderRadius"
-        },
-        "large": {
-          "value": "{radius.m}",
-          "type": "borderRadius"
-        }
+    },
+    "radius": {
+      "small": {
+        "value": "{radius.xs}",
+        "type": "borderRadius"
+      },
+      "medium": {
+        "value": "{radius.s}",
+        "type": "borderRadius"
+      },
+      "large": {
+        "value": "{radius.m}",
+        "type": "borderRadius"
       }
     }
   }
