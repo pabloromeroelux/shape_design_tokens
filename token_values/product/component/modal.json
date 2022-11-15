@@ -1,1 +1,44 @@
-{}
+{
+  "appliance": {
+    "modal": {
+      "color": {
+        "normal": {
+          "value": "{color.surface.normal}",
+          "type": "color"
+        }
+      },
+      "gap": {
+        "value": "{space.16}",
+        "type": "spacing"
+      },
+      "radius": {
+        "small": {
+          "value": "{radius.xs}",
+          "type": "borderRadius"
+        },
+        "medium": {
+          "value": "{radius.s}",
+          "type": "borderRadius"
+        },
+        "large": {
+          "value": "{radius.m}",
+          "type": "borderRadius"
+        }
+      },
+      "padding": {
+        "small": {
+          "value": "{space.16}",
+          "type": "spacing"
+        },
+        "medium": {
+          "value": "{space.20}",
+          "type": "spacing"
+        },
+        "large": {
+          "value": "{space.24}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}
