@@ -5,6 +5,20 @@
         "normal": {
           "value": "{color.surface.normal}",
           "type": "color"
+        },
+        "on": {
+          "normal": {
+            "value": "{color.onSurface.normal}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{color.onSurface.subtle}",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{color.onSurface.muted}",
+            "type": "color"
+          }
         }
       },
       "gap": {
