@@ -7,29 +7,25 @@
       }
     },
     "surface": {
-      "down": {
-        "2": {
-          "value": "{color.gray.700}",
-          "type": "color"
-        },
-        "1": {
-          "value": "{color.gray.800}",
-          "type": "color"
-        }
+      "down.2": {
+        "value": "{color.gray.900}",
+        "type": "color"
+      },
+      "down.1": {
+        "value": "{color.gray.900}",
+        "type": "color"
       },
       "default": {
         "value": "{color.gray.900}",
         "type": "color"
       },
-      "up": {
-        "1": {
-          "value": "{color.gray.1000}",
-          "type": "color"
-        },
-        "2": {
-          "value": "{color.gray.white}",
-          "type": "color"
-        }
+      "up.1": {
+        "value": "{color.gray.900}",
+        "type": "color"
+      },
+      "up.2": {
+        "value": "{color.gray.900}",
+        "type": "color"
       }
     },
     "onSurface": {
