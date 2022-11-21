@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
     "reference",
+    "decision/base",
     "component/button",
     "component/card",
     "component/chip",
@@ -8,7 +9,6 @@
     "component/modal",
     "component/tab",
     "component/toggle",
-    "decision/base",
     "brand/elux/dark",
     "brand/aeg/dark",
     "brand/frig/dark"
