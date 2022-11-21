@@ -21,8 +21,18 @@
       }
     },
     "gap": {
-      "value": "{space.16}",
-      "type": "spacing"
+      "small": {
+        "value": "{space.16}",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "{space.16}",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "{space.24}",
+        "type": "spacing"
+      }
     },
     "radius": {
       "small": {
