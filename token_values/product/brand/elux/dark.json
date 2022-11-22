@@ -40,7 +40,7 @@
     },
     "sizeMultiplier": {
       "theme": {
-        "value": "{font.sizeMultiplier.1}",
+        "value": "{font.sizeMultiplier.100}",
         "type": "fontSizes"
       }
     }
