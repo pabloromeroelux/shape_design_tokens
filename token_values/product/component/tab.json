@@ -79,15 +79,15 @@
     "font": {
       "label": {
         "small": {
-          "value": "{font.label.small}",
+          "value": "{font.body.small}",
           "type": "typography"
         },
         "medium": {
-          "value": "{font.label.medium}",
+          "value": "{font.body.medium}",
           "type": "typography"
         },
         "large": {
-          "value": "{font.label.large}",
+          "value": "{font.body.large}",
           "type": "typography"
         }
       }
