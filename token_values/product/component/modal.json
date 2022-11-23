@@ -40,11 +40,11 @@
         "type": "spacing"
       },
       "medium": {
-        "value": "{space.20}",
+        "value": "{space.32}",
         "type": "spacing"
       },
       "large": {
-        "value": "{space.24}",
+        "value": "{space.32}",
         "type": "spacing"
       }
     }
@@ -56,7 +56,7 @@
         "type": "spacing"
       },
       "medium": {
-        "value": "{space.24}",
+        "value": "{space.32}",
         "type": "spacing"
       },
       "large": {
