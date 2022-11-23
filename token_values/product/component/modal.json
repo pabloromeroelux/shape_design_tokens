@@ -20,10 +20,6 @@
         }
       }
     },
-    "gap": {
-      "value": "{space.16}",
-      "type": "spacing"
-    },
     "radius": {
       "small": {
         "value": "{radius.xs}",
@@ -44,11 +40,43 @@
         "type": "spacing"
       },
       "medium": {
-        "value": "{space.20}",
+        "value": "{space.32}",
         "type": "spacing"
       },
       "large": {
+        "value": "{space.32}",
+        "type": "spacing"
+      }
+    }
+  },
+  "modalV": {
+    "gap": {
+      "small": {
+        "value": "{space.16}",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "{space.32}",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "{space.32}",
+        "type": "spacing"
+      }
+    }
+  },
+  "modalH": {
+    "gap": {
+      "small": {
+        "value": "{space.16}",
+        "type": "spacing"
+      },
+      "medium": {
         "value": "{space.24}",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "{space.32}",
         "type": "spacing"
       }
     }
