@@ -7,12 +7,12 @@
       }
     },
     "onBackground": {
-      "subtle": {
-        "value": "{color.gray.150}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.black}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.gray.150}",
         "type": "color"
       },
       "default": {
@@ -30,12 +30,12 @@
       }
     },
     "surface": {
-      "subtle": {
-        "value": "{color.gray.800}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.gray.700}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.gray.800}",
         "type": "color"
       },
       "default": {
@@ -53,12 +53,12 @@
       }
     },
     "onSurface": {
-      "subtle": {
-        "value": "{color.gray.150}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.black}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.gray.150}",
         "type": "color"
       },
       "default": {
@@ -76,12 +76,12 @@
       }
     },
     "container": {
-      "subtle": {
-        "value": "{color.gray.650}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.gray.550}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.gray.650}",
         "type": "color"
       },
       "default": {
@@ -99,12 +99,12 @@
       }
     },
     "onContainer": {
-      "subtle": {
-        "value": "{color.gray.150}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.black}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.gray.150}",
         "type": "color"
       },
       "default": {
@@ -122,12 +122,12 @@
       }
     },
     "primary": {
-      "subtle": {
-        "value": "{color.blue-indigo.150}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.blue-indigo.100}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.blue-indigo.150}",
         "type": "color"
       },
       "default": {
@@ -145,12 +145,12 @@
       }
     },
     "onPrimary": {
-      "subtle": {
-        "value": "{color.blue-indigo.800}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.blue-indigo.700}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.blue-indigo.800}",
         "type": "color"
       },
       "default": {
@@ -168,12 +168,12 @@
       }
     },
     "secondary": {
-      "subtle": {
-        "value": "{color.green-olive.150}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.green-olive.100}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.green-olive.150}",
         "type": "color"
       },
       "default": {
@@ -191,12 +191,12 @@
       }
     },
     "onSecondary": {
-      "subtle": {
-        "value": "{color.green-olive.800}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.green-olive.700}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.green-olive.800}",
         "type": "color"
       },
       "default": {
@@ -214,12 +214,12 @@
       }
     },
     "tertiary": {
-      "subtle": {
-        "value": "{color.gray.100}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.gray.50}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.gray.100}",
         "type": "color"
       },
       "default": {
@@ -237,12 +237,12 @@
       }
     },
     "onTertiary": {
-      "subtle": {
-        "value": "{color.gray.900}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.gray.850}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.gray.900}",
         "type": "color"
       },
       "default": {
@@ -260,12 +260,12 @@
       }
     },
     "ghost": {
-      "subtle": {
-        "value": "rgba({color.white},0.2)",
-        "type": "color"
-      },
       "muted": {
         "value": "rgba({color.white},0.1)",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "rgba({color.white},0.2)",
         "type": "color"
       },
       "default": {
@@ -289,12 +289,12 @@
       }
     },
     "info": {
-      "subtle": {
-        "value": "{color.blue-indigo.400}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.blue-indigo.350}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.blue-indigo.400}",
         "type": "color"
       },
       "default": {
@@ -312,12 +312,12 @@
       }
     },
     "onInfo": {
-      "subtle": {
-        "value": "{color.blue-indigo.800}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.blue-indigo.700}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.blue-indigo.800}",
         "type": "color"
       },
       "default": {
@@ -335,12 +335,12 @@
       }
     },
     "success": {
-      "subtle": {
-        "value": "{color.green.400}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.green.350}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.green.400}",
         "type": "color"
       },
       "default": {
@@ -359,12 +359,12 @@
     },
 
     "onSuccess": {
-      "subtle": {
-        "value": "{color.green.800}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.green.700}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.green.800}",
         "type": "color"
       },
       "default": {
@@ -382,12 +382,12 @@
       }
     },
     "danger": {
-      "subtle": {
-        "value": "{color.red.400}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.red.350}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.red.400}",
         "type": "color"
       },
       "default": {
@@ -405,12 +405,12 @@
       }
     },
     "onDanger": {
-      "subtle": {
-        "value": "{color.red.800}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.red.700}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.red.800}",
         "type": "color"
       },
       "default": {
@@ -428,12 +428,12 @@
       }
     },
     "caution": {
-      "subtle": {
-        "value": "{color.orange.400}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.orange.350}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.orange.400}",
         "type": "color"
       },
       "default": {
@@ -451,12 +451,12 @@
       }
     },
     "onCaution": {
-      "subtle": {
-        "value": "{color.orange.800}",
-        "type": "color"
-      },
       "muted": {
         "value": "{color.orange.700}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.orange.800}",
         "type": "color"
       },
       "default": {
