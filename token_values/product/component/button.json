@@ -4,113 +4,113 @@
       "color": {
         "primary": {
           "normal": {
-            "value": "{color.primary.normal}",
+            "value": "{color.primary.default}",
             "type": "color"
           },
           "pressed": {
-            "value": "{color.primary.pressed}",
+            "value": "{color.primary.up.1}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.primary.disabled}",
+            "value": "{color.primary.down.1}",
             "type": "color"
           }
         },
         "onPrimary": {
           "normal": {
-            "value": "{color.onPrimary.normal}",
+            "value": "{color.onPrimary.default}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.onPrimary.muted}",
+            "value": "{color.onPrimary.down.2}",
             "type": "color"
           }
         },
         "secondary": {
           "normal": {
-            "value": "{color.secondary.normal}",
+            "value": "{color.secondary.default}",
             "type": "color"
           },
           "pressed": {
-            "value": "{color.secondary.pressed}",
+            "value": "{color.secondary.up.1}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.secondary.disabled}",
+            "value": "{color.secondary.down.1}",
             "type": "color"
           }
         },
         "onSecondary": {
           "normal": {
-            "value": "{color.onSecondary.normal}",
+            "value": "{color.onSecondary.default}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.onSecondary.muted}",
+            "value": "{color.onSecondary.down.2}",
             "type": "color"
           }
         },
         "tertiary": {
           "normal": {
-            "value": "{color.ghost.normal}",
+            "value": "{color.ghost.default}",
             "type": "color"
           },
           "pressed": {
-            "value": "{color.ghost.pressed}",
+            "value": "{color.ghost.up.1}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.ghost.disabled}",
+            "value": "{color.ghost.down.1}",
             "type": "color"
           }
         },
         "border": {
           "tertiary": {
             "normal": {
-              "value": "{color.onSecondary.normal}",
+              "value": "{color.onSecondary.default}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.onSecondary.normal}",
+              "value": "{color.onSecondary.default}",
               "type": "color"
             },
             "disabled": {
-              "value": "{color.onSecondary.muted}",
+              "value": "{color.onSecondary.down.2}",
               "type": "color"
             }
           }
         },
         "onTertiary": {
           "normal": {
-            "value": "{color.onSecondary.normal}",
+            "value": "{color.onSecondary.default}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.onSecondary.muted}",
+            "value": "{color.onSecondary.down.2}",
             "type": "color"
           }
         },
         "quaternary": {
           "normal": {
-            "value": "{color.ghost.normal}",
+            "value": "{color.ghost.default}",
             "type": "color"
           },
           "pressed": {
-            "value": "{color.ghost.pressed}",
+            "value": "{color.ghost.up.1}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.ghost.disabled}",
+            "value": "{color.ghost.down.1}",
             "type": "color"
           }
         },
         "onQuaternary": {
           "normal": {
-            "value": "{color.onSecondary.normal}",
+            "value": "{color.onSecondary.default}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.onSecondary.muted}",
+            "value": "{color.onSecondary.down.2}",
             "type": "color"
           }
         }
