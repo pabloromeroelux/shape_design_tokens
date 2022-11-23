@@ -143,11 +143,11 @@
       },
       "up": {
         "1": {
-          "value": "{color.blue-indigo.300}",
+          "value": "{color.blue-indigo.250}",
           "type": "color"
         },
         "2": {
-          "value": "{color.blue-indigo.250}",
+          "value": "{color.blue-indigo.300}",
           "type": "color"
         }
       },
@@ -195,11 +195,11 @@
       },
       "up": {
         "1": {
-          "value": "{color.green-olive.300}",
+          "value": "{color.green-olive.250}",
           "type": "color"
         },
         "2": {
-          "value": "{color.green-olive.250}",
+          "value": "{color.green-olive.300}",
           "type": "color"
         }
       },
