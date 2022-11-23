@@ -292,6 +292,38 @@
         }
       }
     },
+    "ghost": {
+      "default": {
+        "value": "rgba({color.white},0.0)",
+        "type": "color"
+      },
+      "up": {
+        "1": {
+          "value": "rgba({color.white},0.1)",
+          "type": "color"
+        },
+        "2": {
+          "value": "rgba({color.white},0.2)",
+          "type": "color"
+        }
+      },
+      "down": {
+        "1": {
+          "value": "rgba({color.white},0.2)",
+          "type": "color"
+        },
+        "2": {
+          "value": "rgba({color.white},0.1)",
+          "type": "color"
+        }
+      }
+    },
+    "onGhost": {
+      "default": {
+        "value": "color.white",
+        "type": "color"
+      }
+    },
     "info": {
       "default": {
         "value": "{color.blue-indigo.450}",
