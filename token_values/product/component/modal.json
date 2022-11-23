@@ -56,11 +56,11 @@
         "type": "spacing"
       },
       "medium": {
-        "value": "{space.16}",
+        "value": "{space.24}",
         "type": "spacing"
       },
       "large": {
-        "value": "{space.24}",
+        "value": "{space.32}",
         "type": "spacing"
       }
     }
