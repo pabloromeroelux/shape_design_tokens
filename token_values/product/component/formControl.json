@@ -48,44 +48,44 @@
       "color": {
         "selected": {
           "normal": {
-            "value": "{color.primary.normal}",
+            "value": "{color.primary.default}",
             "type": "color"
           },
           "pressed": {
-            "value": "{color.primary.pressed}",
+            "value": "{color.primary.up.1}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.primary.disabled}",
+            "value": "{color.primary.down.1}",
             "type": "color"
           }
         },
         "unselected": {
           "normal": {
-            "value": "{color.ghost.normal}",
+            "value": "{color.ghost.default}",
             "type": "color"
           },
           "pressed": {
-            "value": "{color.ghost.pressed}",
+            "value": "{color.ghost.up.1}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.ghost.disabled}",
+            "value": "{color.ghost.down.1}",
             "type": "color"
           }
         },
         "border": {
           "unselected": {
             "normal": {
-              "value": "{color.primary.normal}",
+              "value": "{color.primary.default}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.primary.pressed}",
+              "value": "{color.primary.up.1}",
               "type": "color"
             },
             "disabled": {
-              "value": "{color.primary.disabled}",
+              "value": "{color.primary.down.1}",
               "type": "color"
             }
           }
@@ -94,11 +94,11 @@
       "mark": {
         "color": {
           "normal": {
-            "value": "{color.onPrimary.normal}",
+            "value": "{color.onPrimary.default}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.onPrimary.muted}",
+            "value": "{color.onPrimary.down.2}",
             "type": "color"
           }
         }
@@ -154,58 +154,58 @@
       "color": {
         "selected": {
           "normal": {
-            "value": "{color.primary.normal}",
+            "value": "{color.primary.default}",
             "type": "color"
           },
           "pressed": {
-            "value": "{color.primary.pressed}",
+            "value": "{color.primary.up.1}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.primary.disabled}",
+            "value": "{color.primary.down.1}",
             "type": "color"
           }
         },
         "unselected": {
           "normal": {
-            "value": "{color.ghost.normal}",
+            "value": "{color.ghost.default}",
             "type": "color"
           },
           "pressed": {
-            "value": "{color.ghost.pressed}",
+            "value": "{color.ghost.up.1}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.ghost.disabled}",
+            "value": "{color.ghost.down.1}",
             "type": "color"
           }
         },
         "border": {
           "selected": {
             "normal": {
-              "value": "{color.primary.normal}",
+              "value": "{color.primary.default}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.primary.pressed}",
+              "value": "{color.primary.up.1}",
               "type": "color"
             },
             "disabled": {
-              "value": "{color.primary.disabled}",
+              "value": "{color.primary.down.1}",
               "type": "color"
             }
           },
           "unselected": {
             "normal": {
-              "value": "{color.primary.normal}",
+              "value": "{color.primary.default}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.primary.pressed}",
+              "value": "{color.primary.up.1}",
               "type": "color"
             },
             "disabled": {
-              "value": "{color.primary.disabled}",
+              "value": "{color.primary.down.1}",
               "type": "color"
             }
           }

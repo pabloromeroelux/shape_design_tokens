@@ -2,20 +2,20 @@
   "modal": {
     "color": {
       "normal": {
-        "value": "{color.surface.normal}",
+        "value": "{color.surface.default}",
         "type": "color"
       },
       "on": {
         "normal": {
-          "value": "{color.onSurface.normal}",
+          "value": "{color.onSurface.default}",
           "type": "color"
         },
         "subtle": {
-          "value": "{color.onSurface.subtle}",
+          "value": "{color.onSurface.down.1}",
           "type": "color"
         },
         "muted": {
-          "value": "{color.onSurface.muted}",
+          "value": "{color.onSurface.down.2}",
           "type": "color"
         }
       }

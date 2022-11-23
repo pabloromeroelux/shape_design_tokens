@@ -3,49 +3,49 @@
     "color": {
       "unselected": {
         "normal": {
-          "value": "{color.ghost.normal}",
+          "value": "{color.ghost.default}",
           "type": "color"
         },
         "pressed": {
-          "value": "{color.ghost.pressed}",
+          "value": "{color.ghost.up.1}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.ghost.disabled}",
+          "value": "{color.ghost.down.1}",
           "type": "color"
         }
       },
       "onUnselected": {
         "normal": {
-          "value": "{color.onSecondary.subtle}",
+          "value": "{color.onSecondary.down.1}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.onSecondary.muted}",
+          "value": "{color.onSecondary.down.2}",
           "type": "color"
         }
       },
       "selected": {
         "normal": {
-          "value": "{color.secondary.normal}",
+          "value": "{color.secondary.default}",
           "type": "color"
         },
         "pressed": {
-          "value": "{color.secondary.pressed}",
+          "value": "{color.secondary.up.1}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.secondary.disabled}",
+          "value": "{color.secondary.down.1}",
           "type": "color"
         }
       },
       "onSelected": {
         "normal": {
-          "value": "{color.onSecondary.normal}",
+          "value": "{color.onSecondary.default}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.onSecondary.muted}",
+          "value": "{color.onSecondary.down.2}",
           "type": "color"
         }
       }

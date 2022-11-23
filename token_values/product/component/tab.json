@@ -3,37 +3,37 @@
     "color": {
       "unselected": {
         "normal": {
-          "value": "{color.ghost.normal}",
+          "value": "{color.ghost.default}",
           "type": "color"
         },
         "pressed": {
-          "value": "{color.ghost.pressed}",
+          "value": "{color.ghost.up.1}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.ghost.disabled}",
+          "value": "{color.ghost.down.1}",
           "type": "color"
         }
       },
       "onUnselected": {
         "normal": {
-          "value": "{color.onSecondary.subtle}",
+          "value": "{color.onSecondary.down.1}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.onSecondary.muted}",
+          "value": "{color.onSecondary.down.2}",
           "type": "color"
         }
       },
       "selected": {
         "normal": {
-          "value": "{color.ghost.normal}",
+          "value": "{color.ghost.default}",
           "type": "color"
         }
       },
       "onSelected": {
         "normal": {
-          "value": "{color.onSecondary.normal}",
+          "value": "{color.onSecondary.default}",
           "type": "color"
         }
       }
