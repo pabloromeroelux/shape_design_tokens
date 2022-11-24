@@ -53,7 +53,7 @@
     },
     "onSurface": {
       "muted": {
-        "value": "{color.gray.600}",
+        "value": "{color.gray.550}",
         "type": "color"
       },
       "subtle": {
