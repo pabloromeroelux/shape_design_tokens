@@ -133,7 +133,7 @@
       },
 
       "emphasis": {
-        "value": "{color.blue-indigo.250}",
+        "value": "{color.blue-indigo.300}",
         "type": "color"
       },
       "highlight": {
@@ -179,7 +179,7 @@
       },
 
       "emphasis": {
-        "value": "{color.green-olive.300}",
+        "value": "{color.green-olive.400}",
         "type": "color"
       },
       "highlight": {
@@ -225,7 +225,7 @@
       },
 
       "emphasis": {
-        "value": "{color.gray.150}",
+        "value": "{color.gray.300}",
         "type": "color"
       },
       "highlight": {
