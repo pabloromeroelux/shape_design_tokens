@@ -258,24 +258,15 @@
     },
     "ghost": {
       "muted": {
-        "value": "rgba({color.black},0.1)",
+        "value": "rgba({color.black},0.05)",
         "type": "color"
       },
       "subtle": {
-        "value": "rgba({color.black},0.2)",
+        "value": "rgba({color.black},0.1)",
         "type": "color"
       },
       "default": {
         "value": "rgba({color.black},0.0)",
-        "type": "color"
-      },
-
-      "emphasis": {
-        "value": "rgba({color.black},0.1)",
-        "type": "color"
-      },
-      "highlight": {
-        "value": "rgba({color.black},0.2)",
         "type": "color"
       }
     },
