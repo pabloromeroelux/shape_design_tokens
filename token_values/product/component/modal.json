@@ -2,12 +2,12 @@
   "modal": {
     "color": {
       "normal": {
-        "value": "{color.surface.normal}",
+        "value": "{color.surface.default}",
         "type": "color"
       },
       "on": {
         "normal": {
-          "value": "{color.onSurface.normal}",
+          "value": "{color.onSurface.default}",
           "type": "color"
         },
         "subtle": {

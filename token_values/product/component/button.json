@@ -3,21 +3,21 @@
     "color": {
       "primary": {
         "normal": {
-          "value": "{color.primary.normal}",
+          "value": "{color.primary.default}",
           "type": "color"
         },
         "pressed": {
-          "value": "{color.primary.pressed}",
+          "value": "{color.primary.emphasis}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.primary.disabled}",
+          "value": "{color.primary.subtle}",
           "type": "color"
         }
       },
       "onPrimary": {
         "normal": {
-          "value": "{color.onPrimary.normal}",
+          "value": "{color.onPrimary.default}",
           "type": "color"
         },
         "disabled": {
@@ -27,21 +27,21 @@
       },
       "secondary": {
         "normal": {
-          "value": "{color.secondary.normal}",
+          "value": "{color.secondary.default}",
           "type": "color"
         },
         "pressed": {
-          "value": "{color.secondary.pressed}",
+          "value": "{color.secondary.emphasis}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.secondary.disabled}",
+          "value": "{color.secondary.subtle}",
           "type": "color"
         }
       },
       "onSecondary": {
         "normal": {
-          "value": "{color.onSecondary.normal}",
+          "value": "{color.onSecondary.default}",
           "type": "color"
         },
         "disabled": {
@@ -51,26 +51,26 @@
       },
       "tertiary": {
         "normal": {
-          "value": "{color.ghost.normal}",
+          "value": "{color.ghost.default}",
           "type": "color"
         },
         "pressed": {
-          "value": "{color.ghost.pressed}",
+          "value": "{color.ghost.emphasis}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.ghost.disabled}",
+          "value": "{color.ghost.subtle}",
           "type": "color"
         }
       },
       "border": {
         "tertiary": {
           "normal": {
-            "value": "{color.onSecondary.normal}",
+            "value": "{color.onSecondary.default}",
             "type": "color"
           },
           "pressed": {
-            "value": "{color.onSecondary.normal}",
+            "value": "{color.onSecondary.default}",
             "type": "color"
           },
           "disabled": {
@@ -81,7 +81,7 @@
       },
       "onTertiary": {
         "normal": {
-          "value": "{color.onSecondary.normal}",
+          "value": "{color.onSecondary.default}",
           "type": "color"
         },
         "disabled": {
@@ -91,21 +91,21 @@
       },
       "quaternary": {
         "normal": {
-          "value": "{color.ghost.normal}",
+          "value": "{color.ghost.default}",
           "type": "color"
         },
         "pressed": {
-          "value": "{color.ghost.pressed}",
+          "value": "{color.ghost.emphasis}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.ghost.disabled}",
+          "value": "{color.ghost.subtle}",
           "type": "color"
         }
       },
       "onQuaternary": {
         "normal": {
-          "value": "{color.onSecondary.normal}",
+          "value": "{color.onSecondary.default}",
           "type": "color"
         },
         "disabled": {

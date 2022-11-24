@@ -3,27 +3,27 @@
     "color": {
       "filled": {
         "normal": {
-          "value": "{color.surface.normal}",
+          "value": "{color.surface.default}",
           "type": "color"
         },
         "pressed": {
-          "value": "{color.surface.pressed}",
+          "value": "{color.surface.emphasis}",
           "type": "color"
         }
       },
       "outlined": {
         "normal": {
-          "value": "{color.ghost.normal}",
+          "value": "{color.ghost.default}",
           "type": "color"
         },
         "pressed": {
-          "value": "{color.ghost.pressed}",
+          "value": "{color.ghost.emphasis}",
           "type": "color"
         }
       },
       "on": {
         "normal": {
-          "value": "{color.onSurface.normal}",
+          "value": "{color.onSurface.default}",
           "type": "color"
         },
         "subtle": {
@@ -37,7 +37,7 @@
       },
       "border": {
         "outlined": {
-          "value": "{color.outline.normal}",
+          "value": "{color.outline.default}",
           "type": "color"
         }
       }
