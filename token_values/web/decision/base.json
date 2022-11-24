@@ -281,7 +281,7 @@
     },
     "onGhost": {
       "default": {
-        "value": "color.gray.100",
+        "value": "{color.gray.100}",
         "type": "color"
       }
     },
