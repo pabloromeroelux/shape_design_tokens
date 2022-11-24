@@ -310,7 +310,7 @@
     },
     "onInfo": {
       "muted": {
-        "value": "{color.blue-indigo.700}",
+        "value": "{color.blue-indigo.150}",
         "type": "color"
       },
       "subtle": {
@@ -357,7 +357,7 @@
 
     "onSuccess": {
       "muted": {
-        "value": "{color.green.700}",
+        "value": "{color.green.150}",
         "type": "color"
       },
       "subtle": {
@@ -403,7 +403,7 @@
     },
     "onDanger": {
       "muted": {
-        "value": "{color.red.700}",
+        "value": "{color.red.150}",
         "type": "color"
       },
       "subtle": {
@@ -449,7 +449,7 @@
     },
     "onCaution": {
       "muted": {
-        "value": "{color.orange.700}",
+        "value": "{color.orange.150}",
         "type": "color"
       },
       "subtle": {
