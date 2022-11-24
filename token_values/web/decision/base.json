@@ -212,15 +212,15 @@
     },
     "tertiary": {
       "muted": {
-        "value": "{color.gray.50}",
+        "value": "{color.black}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.gray.100}",
+        "value": "{color.gray.50}",
         "type": "color"
       },
       "default": {
-        "value": "{color.black}",
+        "value": "{color.150}",
         "type": "color"
       },
 
