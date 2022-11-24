@@ -7,25 +7,24 @@
       }
     },
     "onBackground": {
-      "highlight": {
-        "value": "{color.black}",
+      "muted": {
+        "value": "{color.gray.600}",
         "type": "color"
       },
-      "emphasis": {
-        "value": "{color.gray.150}",
+      "subtle": {
+        "value": "{color.gray.450}",
         "type": "color"
       },
       "default": {
         "value": "{color.gray.300}",
         "type": "color"
       },
-
-      "subtle": {
-        "value": "{color.gray.450}",
+      "emphasis": {
+        "value": "{color.gray.150}",
         "type": "color"
       },
-      "muted": {
-        "value": "{color.gray.600}",
+      "highlight": {
+        "value": "{color.black}",
         "type": "color"
       }
     },
@@ -54,24 +53,23 @@
     },
     "onSurface": {
       "muted": {
-        "value": "{color.black}",
+        "value": "{color.gray.600}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.gray.150}",
+        "value": "{color.gray.450}",
         "type": "color"
       },
       "default": {
         "value": "{color.gray.300}",
         "type": "color"
       },
-
       "emphasis": {
-        "value": "{color.gray.450}",
+        "value": "{color.gray.150}",
         "type": "color"
       },
       "highlight": {
-        "value": "{color.gray.600}",
+        "value": "{color.black}",
         "type": "color"
       }
     },
@@ -100,24 +98,23 @@
     },
     "onContainer": {
       "muted": {
-        "value": "{color.black}",
+        "value": "{color.gray.600}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.gray.150}",
+        "value": "{color.gray.450}",
         "type": "color"
       },
       "default": {
         "value": "{color.gray.300}",
         "type": "color"
       },
-
       "emphasis": {
-        "value": "{color.gray.450}",
+        "value": "{color.gray.150}",
         "type": "color"
       },
       "highlight": {
-        "value": "{color.gray.600}",
+        "value": "{color.black}",
         "type": "color"
       }
     },
