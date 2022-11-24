@@ -459,11 +459,11 @@
     },
     "onPrimary": {
       "muted": {
-        "value": "{color.gray.250}",
+        "value": "{color.gray.550}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.gray.550}",
+        "value": "{color.gray.250}",
         "type": "color"
       },
       "default": {
