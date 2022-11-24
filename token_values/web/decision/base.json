@@ -98,7 +98,7 @@
     },
     "onContainer": {
       "muted": {
-        "value": "{color.gray.600}",
+        "value": "{color.gray.500}",
         "type": "color"
       },
       "subtle": {
