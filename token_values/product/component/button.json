@@ -7,11 +7,11 @@
           "type": "color"
         },
         "pressed": {
-          "value": "{color.primary.up.1}",
+          "value": "{color.primary.emphasis}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.primary.down.1}",
+          "value": "{color.primary.subtle}",
           "type": "color"
         }
       },
@@ -21,7 +21,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{color.onPrimary.down.2}",
+          "value": "{color.onPrimary.muted}",
           "type": "color"
         }
       },
@@ -31,11 +31,11 @@
           "type": "color"
         },
         "pressed": {
-          "value": "{color.secondary.up.1}",
+          "value": "{color.secondary.emphasis}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.secondary.down.1}",
+          "value": "{color.secondary.subtle}",
           "type": "color"
         }
       },
@@ -45,7 +45,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{color.onSecondary.down.2}",
+          "value": "{color.onSecondary.muted}",
           "type": "color"
         }
       },
@@ -55,11 +55,11 @@
           "type": "color"
         },
         "pressed": {
-          "value": "{color.ghost.up.1}",
+          "value": "{color.ghost.emphasis}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.ghost.down.1}",
+          "value": "{color.ghost.subtle}",
           "type": "color"
         }
       },
@@ -74,7 +74,7 @@
             "type": "color"
           },
           "disabled": {
-            "value": "{color.onSecondary.down.2}",
+            "value": "{color.onSecondary.muted}",
             "type": "color"
           }
         }
@@ -85,7 +85,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{color.onSecondary.down.2}",
+          "value": "{color.onSecondary.muted}",
           "type": "color"
         }
       },
@@ -95,11 +95,11 @@
           "type": "color"
         },
         "pressed": {
-          "value": "{color.ghost.up.1}",
+          "value": "{color.ghost.emphasis}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.ghost.down.1}",
+          "value": "{color.ghost.subtle}",
           "type": "color"
         }
       },
@@ -109,7 +109,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{color.onSecondary.down.2}",
+          "value": "{color.onSecondary.muted}",
           "type": "color"
         }
       }

@@ -49,7 +49,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{color.onContainer.down.2}",
+          "value": "{color.onContainer.muted}",
           "type": "color"
         }
       }
@@ -113,11 +113,11 @@
           "type": "color"
         },
         "pressed": {
-          "value": "{color.tertiary.up.1}",
+          "value": "{color.tertiary.emphasis}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.container.down.1}",
+          "value": "{color.container.subtle}",
           "type": "color"
         }
       },
@@ -127,11 +127,11 @@
           "type": "color"
         },
         "pressed": {
-          "value": "{color.container.up.1}",
+          "value": "{color.container.emphasis}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.container.down.1}",
+          "value": "{color.container.subtle}",
           "type": "color"
         }
       }

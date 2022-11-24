@@ -11,11 +11,11 @@
           "type": "color"
         },
         "subtle": {
-          "value": "{color.onSurface.down.1}",
+          "value": "{color.onSurface.subtle}",
           "type": "color"
         },
         "muted": {
-          "value": "{color.onSurface.down.2}",
+          "value": "{color.onSurface.muted}",
           "type": "color"
         }
       }

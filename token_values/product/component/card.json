@@ -7,7 +7,7 @@
           "type": "color"
         },
         "pressed": {
-          "value": "{color.surface.up.1}",
+          "value": "{color.surface.emphasis}",
           "type": "color"
         }
       },
@@ -17,7 +17,7 @@
           "type": "color"
         },
         "pressed": {
-          "value": "{color.ghost.up.1}",
+          "value": "{color.ghost.emphasis}",
           "type": "color"
         }
       },
@@ -27,11 +27,11 @@
           "type": "color"
         },
         "subtle": {
-          "value": "{color.onSurface.down.1}",
+          "value": "{color.onSurface.subtle}",
           "type": "color"
         },
         "muted": {
-          "value": "{color.onSurface.down.2}",
+          "value": "{color.onSurface.muted}",
           "type": "color"
         }
       },

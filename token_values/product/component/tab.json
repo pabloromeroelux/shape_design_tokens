@@ -7,21 +7,21 @@
           "type": "color"
         },
         "pressed": {
-          "value": "{color.ghost.up.1}",
+          "value": "{color.ghost.emphasis}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.ghost.down.1}",
+          "value": "{color.ghost.subtle}",
           "type": "color"
         }
       },
       "onUnselected": {
         "normal": {
-          "value": "{color.onSecondary.down.1}",
+          "value": "{color.onSecondary.subtle}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.onSecondary.down.2}",
+          "value": "{color.onSecondary.muted}",
           "type": "color"
         }
       },
