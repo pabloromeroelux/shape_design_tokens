@@ -258,11 +258,11 @@
     },
     "ghost": {
       "muted": {
-        "value": "rgba({color.black},0.05)",
+        "value": "rgba({color.black},0.1)",
         "type": "color"
       },
       "subtle": {
-        "value": "rgba({color.black},0.1)",
+        "value": "rgba({color.black},0.05)",
         "type": "color"
       },
       "default": {
