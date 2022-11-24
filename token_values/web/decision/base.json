@@ -220,7 +220,7 @@
         "type": "color"
       },
       "default": {
-        "value": "{color.150}",
+        "value": "{color.gray.150}",
         "type": "color"
       },
 
