@@ -2538,23 +2538,23 @@
       "type": "opacity"
     },
     "1": {
-      "value": "0%",
+      "value": "1%",
       "type": "opacity"
     },
     "2": {
-      "value": "0%",
+      "value": "2%",
       "type": "opacity"
     },
     "3": {
-      "value": "0%",
+      "value": "3%",
       "type": "opacity"
     },
     "4": {
-      "value": "0%",
+      "value": "4%",
       "type": "opacity"
     },
     "5": {
-      "value": "0%",
+      "value": "5%",
       "type": "opacity"
     },
     "10": {
