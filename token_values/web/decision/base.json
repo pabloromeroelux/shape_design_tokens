@@ -450,11 +450,11 @@
       },
 
       "emphasis": {
-        "value": "{opacity.1}",
+        "value": "{opacity.5}",
         "type": "opacity"
       },
       "highlight": {
-        "value": "{opacity.2}",
+        "value": "{opacity.10}",
         "type": "opacity"
       }
     }
