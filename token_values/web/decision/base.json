@@ -256,20 +256,6 @@
         "type": "color"
       }
     },
-    "ghost": {
-      "muted": {
-        "value": "rgba({color.black},0.1)",
-        "type": "color"
-      },
-      "subtle": {
-        "value": "rgba({color.black},0.05)",
-        "type": "color"
-      },
-      "default": {
-        "value": "rgba({color.black},0.0)",
-        "type": "color"
-      }
-    },
     "info": {
       "muted": {
         "value": "{color.blue-indigo.300}",
@@ -453,6 +439,31 @@
       "highlight": {
         "value": "{color.white}",
         "type": "color"
+      }
+    }
+  },
+  "opacity": {
+    "container": {
+      "muted": {
+        "value": "{opacity.50}",
+        "type": "opacity"
+      },
+      "subtle": {
+        "value": "{opacity.20}",
+        "type": "opacity"
+      },
+      "default": {
+        "value": "{opacity.0}",
+        "type": "opacity"
+      },
+
+      "emphasis": {
+        "value": "{opacity.1}",
+        "type": "opacity"
+      },
+      "highlight": {
+        "value": "{opacity.5}",
+        "type": "opacity"
       }
     }
   }
