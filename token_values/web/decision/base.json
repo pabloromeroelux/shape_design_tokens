@@ -270,12 +270,6 @@
         "type": "color"
       }
     },
-    "onGhost": {
-      "default": {
-        "value": "{color.gray.100}",
-        "type": "color"
-      }
-    },
     "info": {
       "muted": {
         "value": "{color.blue-indigo.300}",
