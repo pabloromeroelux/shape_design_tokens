@@ -445,12 +445,12 @@
   "opacity": {
     "container": {
       "muted": {
-        "value": "{color.orange.0}",
-        "type": "color"
+        "value": "{opacity.0}",
+        "type": "opacity"
       },
       "subtle": {
-        "value": "{color.orange.5}",
-        "type": "color"
+        "value": "{opacity.5}",
+        "type": "opacity"
       },
       "default": {
         "value": "{opacity.10}",
