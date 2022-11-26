@@ -444,17 +444,25 @@
   },
   "opacity": {
     "container": {
+      "muted": {
+        "value": "{color.orange.0}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.orange.5}",
+        "type": "color"
+      },
       "default": {
-        "value": "{opacity.0}",
+        "value": "{opacity.10}",
         "type": "opacity"
       },
 
       "emphasis": {
-        "value": "{opacity.5}",
+        "value": "{opacity.50}",
         "type": "opacity"
       },
       "highlight": {
-        "value": "{opacity.10}",
+        "value": "{opacity.100}",
         "type": "opacity"
       }
     }
