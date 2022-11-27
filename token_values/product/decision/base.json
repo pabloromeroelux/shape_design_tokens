@@ -499,20 +499,6 @@
         "type": "color"
       }
     },
-    "ghost": {
-      "subtle": {
-        "value": "rgba({color.white},0.0)",
-        "type": "color"
-      },
-      "default": {
-        "value": "rgba({color.white},0.0)",
-        "type": "color"
-      },
-      "emphasis": {
-        "value": "rgba({color.white},0.1)",
-        "type": "color"
-      }
-    },
     "tertiary": {
       "subtle": {
         "value": "{color.blue-indigo.500}",
@@ -550,6 +536,31 @@
     "touchTarget": {
       "value": "{color.green.550}",
       "type": "color"
+    }
+  },
+  "opacity": {
+    "container": {
+      "muted": {
+        "value": "{opacity.0}",
+        "type": "opacity"
+      },
+      "subtle": {
+        "value": "{opacity.5}",
+        "type": "opacity"
+      },
+      "default": {
+        "value": "{opacity.10}",
+        "type": "opacity"
+      },
+
+      "emphasis": {
+        "value": "{opacity.50}",
+        "type": "opacity"
+      },
+      "highlight": {
+        "value": "{opacity.100}",
+        "type": "opacity"
+      }
     }
   },
   "touchTarget": {
