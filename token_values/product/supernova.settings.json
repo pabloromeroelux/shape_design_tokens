@@ -9,6 +9,7 @@
   ],
   "settings": {
     "dryRun": false,
-    "verbose": false
+    "verbose": false,
+    "a": "a"
   }
 }
