@@ -58,4 +58,4 @@ jobs:
 
       # Sync tokens
       - name: Synchronize tokens with Supernova
-        run: supernova sync-tokens --apiKey=${{ secrets.SUPERNOVA_AUTH_TOKEN}} --designSystemId=7721 --tokenFilePath="token_values/product/" --configFilePath="token_values/product/supernova.settings.json"
+        run: supernova sync-tokens --apiKey=${{ secrets.SUPERNOVA_AUTH_TOKEN}} --designSystemId=7721 --tokenDirPath="token_values/product/" --configFilePath="token_values/product/supernova.settings.json"
