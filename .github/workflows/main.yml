@@ -51,16 +51,15 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 14
-      
+
       # Install Supernova CLI
       - name: Install Supernova CLI dependency
         run: npm install --g @supernovaio/cli
 
       # Sync tokens
-      - name: Synchronize tokens with Supernova 
+      - name: Synchronize tokens with Supernova
         run: supernova sync-tokens \
-        --apiKey=${{ secrets.SUPERNOVA_AUTH_TOKEN}} \
-        --designSystemId=7721 \
-        --tokenFilePath="${{ github.workspace }}/data/token_values/product" \
-        --configFilePath="${{ github.workspace }}/data/supernova.settings.json" \
-
+          --apiKey=${{ secrets.SUPERNOVA_AUTH_TOKEN}} \
+          --designSystemId=7721 \
+          --tokenFilePath="${{ github.workspace }}/data/token_values/product" \
+          --configFilePath="${{ github.workspace }}/data/supernova.settings.json" \
