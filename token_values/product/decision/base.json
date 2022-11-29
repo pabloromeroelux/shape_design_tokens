@@ -4,7 +4,7 @@
       "small": {
         "value": {
           "fontFamily": "{font.family.default}",
-          "fontWeight": "{font.weight.normal}",
+          "fontWeight": "{font.weight.regular}",
           "lineHeight": "{font.lineHeight.default}",
           "fontSize": "round ({font.size.body.small} * {font.sizeMultiplier.theme})",
           "letterSpacing": "{font.letterSpacing.0}",
@@ -18,7 +18,7 @@
       "medium": {
         "value": {
           "fontFamily": "{font.family.default}",
-          "fontWeight": "{font.weight.normal}",
+          "fontWeight": "{font.weight.regular}",
           "lineHeight": "{font.lineHeight.default}",
           "fontSize": "round ({font.size.body.medium} * {font.sizeMultiplier.theme})",
           "letterSpacing": "{font.letterSpacing.0}",
@@ -32,7 +32,7 @@
       "large": {
         "value": {
           "fontFamily": "{font.family.default}",
-          "fontWeight": "{font.weight.normal}",
+          "fontWeight": "{font.weight.regular}",
           "lineHeight": "{font.lineHeight.default}",
           "fontSize": "round ({font.size.body.large} * {font.sizeMultiplier.theme})",
           "letterSpacing": "{font.letterSpacing.0}",
@@ -133,7 +133,7 @@
       "medium": {
         "value": {
           "fontFamily": "{font.family.default}",
-          "fontWeight": "{font.weight.normal}",
+          "fontWeight": "{font.weight.regular}",
           "lineHeight": "{font.lineHeight.small}",
           "fontSize": "round ({font.size.16} * {font.sizeMultiplier.theme})",
           "letterSpacing": "{font.letterSpacing.0}",
@@ -147,7 +147,7 @@
       "small": {
         "value": {
           "fontFamily": "{font.family.default}",
-          "fontWeight": "{font.weight.normal}",
+          "fontWeight": "{font.weight.regular}",
           "lineHeight": "{font.lineHeight.small}",
           "fontSize": "round ({font.size.14} * {font.sizeMultiplier.theme})",
           "letterSpacing": "{font.letterSpacing.0}",
@@ -552,7 +552,6 @@
         "value": "{opacity.10}",
         "type": "opacity"
       },
-
       "emphasis": {
         "value": "{opacity.50}",
         "type": "opacity"
