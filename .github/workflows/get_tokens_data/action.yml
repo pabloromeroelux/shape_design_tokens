@@ -1,5 +1,5 @@
-name: "Get Tokens Data"
-description: "Get Data from Figma Tokens"
+name: "Sync Tokens"
+description: "sync reference tokens platforms"
 inputs:
   changes:
     description: "Path to changed files"

@@ -8,8 +8,8 @@ on:
       - "token_values/**"
 
 jobs:
-  supernova_sync:
-    name: Sync Figma Tokens and Supernova
+  sync_reference_tokens:
+    name: Sync Reference tokens
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'sync reference')"
     steps:
@@ -40,3 +40,27 @@ jobs:
         uses: EndBug/add-and-commit@v9.1.1
         with:
           message: "sync reference"
+  sync_with_supernova:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'sync reference')"
+    steps:
+      # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
+      - uses: actions/checkout@v3
+
+      # Setup node to use with CLI. 14+ is required
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14
+      
+      # Install Supernova CLI
+      - name: Install Supernova CLI dependency
+        run: npm install --g @supernovaio/cli
+
+      # Sync tokens
+      - name: Synchronize tokens with Supernova 
+        run: supernova sync-tokens \
+        --apiKey=${{ secrets.SUPERNOVA_AUTH_TOKEN}} \
+        --designSystemId=7721 \
+        --tokenFilePath="${{ github.workspace }}/data/token_values/product" \
+        --configFilePath="${{ github.workspace }}/data/supernova.settings.json" \
+
