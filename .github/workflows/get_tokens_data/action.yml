@@ -6,6 +6,7 @@ inputs:
 outputs:
   data: # id of output
     description: "Figma tokens json data"
+
 runs:
   using: "node16"
   main: "./dist/index.js"
