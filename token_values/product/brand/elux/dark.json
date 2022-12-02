@@ -18,7 +18,7 @@
         "type": "lineHeights",
         "description": "Line height for headings"
       },
-      "small": {
+      "S": {
         "value": "{font.lineHeight.120}",
         "type": "lineHeights",
         "description": "Smaller line height for shorter text blocks (labels, captions)"

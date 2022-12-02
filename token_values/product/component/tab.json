@@ -15,26 +15,28 @@
           "type": "color"
         }
       },
-      "onUnselected": {
-        "normal": {
-          "value": "{color.onSecondary.subtle}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{color.onSecondary.muted}",
-          "type": "color"
-        }
-      },
       "selected": {
         "normal": {
           "value": "rgba({color.onBackground.default},{opacity.container.muted})",
           "type": "color"
         }
       },
-      "onSelected": {
-        "normal": {
-          "value": "{color.onSecondary.default}",
-          "type": "color"
+      "on": {
+        "unselected": {
+          "normal": {
+            "value": "{color.onSecondary.subtle}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.onSecondary.muted}",
+            "type": "color"
+          }
+        },
+        "selected": {
+          "normal": {
+            "value": "{color.onSecondary.default}",
+            "type": "color"
+          }
         }
       }
     },
@@ -46,31 +48,31 @@
         }
       },
       "radius": {
-        "small": {
-          "value": "{tab.radius.small}+2",
+        "S": {
+          "value": "{tab.radius.S}+2",
           "type": "borderRadius"
         },
-        "medium": {
-          "value": "{tab.radius.medium}+2",
+        "M": {
+          "value": "{tab.radius.M}+2",
           "type": "borderRadius"
         },
-        "large": {
-          "value": "{tab.radius.large}+2",
+        "L": {
+          "value": "{tab.radius.L}+2",
           "type": "borderRadius"
         }
       },
       "stroke": {
         "width": {
-          "small": {
-            "value": "{focusedOutline.stroke.width.small}",
+          "S": {
+            "value": "{focusedOutline.stroke.width.S}",
             "type": "borderWidth"
           },
-          "medium": {
-            "value": "{focusedOutline.stroke.width.medium}",
+          "M": {
+            "value": "{focusedOutline.stroke.width.M}",
             "type": "borderWidth"
           },
-          "large": {
-            "value": "{focusedOutline.stroke.width.large}",
+          "L": {
+            "value": "{focusedOutline.stroke.width.L}",
             "type": "borderWidth"
           }
         }
@@ -78,87 +80,87 @@
     },
     "font": {
       "label": {
-        "small": {
-          "value": "{font.body.small}",
+        "S": {
+          "value": "{font.body.S}",
           "type": "typography"
         },
-        "medium": {
-          "value": "{font.body.medium}",
+        "M": {
+          "value": "{font.body.M}",
           "type": "typography"
         },
-        "large": {
-          "value": "{font.body.large}",
+        "L": {
+          "value": "{font.body.L}",
           "type": "typography"
         }
       }
     },
     "height": {
-      "small": {
+      "S": {
         "value": "{dimension.48}",
         "type": "sizing"
       },
-      "medium": {
+      "M": {
         "value": "{dimension.56}",
         "type": "sizing"
       },
-      "large": {
+      "L": {
         "value": "{dimension.64}",
         "type": "sizing"
       }
     },
     "paddingH": {
-      "small": {
+      "S": {
         "value": "{space.0}",
         "type": "spacing"
       },
-      "medium": {
+      "M": {
         "value": "{space.0}",
         "type": "spacing"
       },
-      "large": {
+      "L": {
         "value": "{space.0}",
         "type": "spacing"
       }
     },
     "minWidth": {
-      "small": {
+      "S": {
         "value": "{dimension.32}",
         "type": "sizing"
       },
-      "medium": {
+      "M": {
         "value": "{dimension.32}",
         "type": "sizing"
       },
-      "large": {
+      "L": {
         "value": "{dimension.32}",
         "type": "sizing"
       }
     },
     "gapH": {
-      "small": {
+      "S": {
         "value": "{space.8}",
         "type": "spacing"
       },
-      "medium": {
+      "M": {
         "value": "{space.8}",
         "type": "spacing"
       },
-      "large": {
+      "L": {
         "value": "{space.12}",
         "type": "spacing"
       }
     },
     "icon": {
       "size": {
-        "small": {
+        "S": {
           "value": "{dimension.24}",
           "type": "sizing"
         },
-        "medium": {
+        "M": {
           "value": "{dimension.28}",
           "type": "sizing"
         },
-        "large": {
+        "L": {
           "value": "{dimension.32}",
           "type": "sizing"
         }
@@ -166,44 +168,44 @@
     },
     "underline": {
       "height": {
-        "small": {
+        "S": {
           "value": "{dimension.2}",
           "type": "sizing"
         },
-        "medium": {
+        "M": {
           "value": "{dimension.2}",
           "type": "sizing"
         },
-        "large": {
+        "L": {
           "value": "{dimension.3}",
           "type": "sizing"
         }
       }
     },
     "radius": {
-      "small": {
-        "value": "{radius.xxxs}",
+      "S": {
+        "value": "{radius.XXXS}",
         "type": "borderRadius"
       },
-      "medium": {
-        "value": "{radius.xxs}",
+      "M": {
+        "value": "{radius.XXS}",
         "type": "borderRadius"
       },
-      "large": {
-        "value": "{radius.xs}",
+      "L": {
+        "value": "{radius.XS}",
         "type": "borderRadius"
       }
     },
     "gapV": {
-      "small": {
+      "S": {
         "value": "{space.2}",
         "type": "spacing"
       },
-      "medium": {
+      "M": {
         "value": "{space.2}",
         "type": "spacing"
       },
-      "large": {
+      "L": {
         "value": "{space.2}",
         "type": "spacing"
       }
@@ -211,29 +213,29 @@
   },
   "tabBar": {
     "height": {
-      "small": {
+      "S": {
         "value": "{dimension.56}",
         "type": "sizing"
       },
-      "large": {
+      "L": {
         "value": "{dimension.72}",
         "type": "sizing"
       },
-      "medium": {
+      "M": {
         "value": "{dimension.64}",
         "type": "sizing"
       }
     },
     "gap": {
-      "small": {
+      "S": {
         "value": "{dimension.32}",
         "type": "spacing"
       },
-      "medium": {
+      "M": {
         "value": "{dimension.40}",
         "type": "spacing"
       },
-      "large": {
+      "L": {
         "value": "{dimension.48}",
         "type": "spacing"
       }
