@@ -573,31 +573,31 @@
       "value": "0",
       "type": "borderRadius"
     },
-    "xxxs": {
+    "XXXS": {
       "value": "{radius.4}",
       "type": "borderRadius"
     },
-    "xxs": {
+    "XXS": {
       "value": "{radius.6}",
       "type": "borderRadius"
     },
-    "xs": {
+    "XS": {
       "value": "{radius.8}",
       "type": "borderRadius"
     },
-    "s": {
+    "S": {
       "value": "{radius.10}",
       "type": "borderRadius"
     },
-    "m": {
+    "M": {
       "value": "{radius.12}",
       "type": "borderRadius"
     },
-    "l": {
+    "L": {
       "value": "{radius.16}",
       "type": "borderRadius"
     },
-    "xl": {
+    "XL": {
       "value": "{radius.24}",
       "type": "borderRadius"
     }
