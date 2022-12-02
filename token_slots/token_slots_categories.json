@@ -1,0 +1,6 @@
+{
+  "Namespace": ["System", "Theme", "Domain"],
+  "Object": ["Group", "Component", "Element"],
+  "Base": ["Category", "Concept", "Property"],
+  "Modifiers": ["Variant", "State", "Scale", "Mode"]
+}
