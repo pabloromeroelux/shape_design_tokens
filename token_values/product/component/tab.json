@@ -182,15 +182,15 @@
     },
     "radius": {
       "S": {
-        "value": "{radius.xxxs}",
+        "value": "{radius.XXXS}",
         "type": "borderRadius"
       },
       "M": {
-        "value": "{radius.xxs}",
+        "value": "{radius.XXS}",
         "type": "borderRadius"
       },
       "L": {
-        "value": "{radius.xs}",
+        "value": "{radius.XS}",
         "type": "borderRadius"
       }
     },
