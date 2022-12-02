@@ -21,29 +21,29 @@
       }
     },
     "radius": {
-      "small": {
+      "S": {
         "value": "{radius.xs}",
         "type": "borderRadius"
       },
-      "medium": {
+      "M": {
         "value": "{radius.s}",
         "type": "borderRadius"
       },
-      "large": {
+      "L": {
         "value": "{radius.m}",
         "type": "borderRadius"
       }
     },
     "padding": {
-      "small": {
+      "S": {
         "value": "{space.16}",
         "type": "spacing"
       },
-      "medium": {
+      "M": {
         "value": "{space.32}",
         "type": "spacing"
       },
-      "large": {
+      "L": {
         "value": "{space.32}",
         "type": "spacing"
       }
@@ -51,15 +51,15 @@
   },
   "modalV": {
     "gap": {
-      "small": {
+      "S": {
         "value": "{space.16}",
         "type": "spacing"
       },
-      "medium": {
+      "M": {
         "value": "{space.32}",
         "type": "spacing"
       },
-      "large": {
+      "L": {
         "value": "{space.32}",
         "type": "spacing"
       }
@@ -67,15 +67,15 @@
   },
   "modalH": {
     "gap": {
-      "small": {
+      "S": {
         "value": "{space.16}",
         "type": "spacing"
       },
-      "medium": {
+      "M": {
         "value": "{space.24}",
         "type": "spacing"
       },
-      "large": {
+      "L": {
         "value": "{space.32}",
         "type": "spacing"
       }

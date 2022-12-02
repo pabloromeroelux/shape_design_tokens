@@ -1,44 +1,44 @@
 {
   "checkbox": {
     "size": {
-      "small": {
+      "S": {
         "value": "{dimension.24}",
         "type": "sizing"
       },
-      "medium": {
+      "M": {
         "value": "{dimension.32}",
         "type": "sizing"
       },
-      "large": {
+      "L": {
         "value": "{dimension.40}",
         "type": "sizing"
       }
     },
     "radius": {
-      "small": {
+      "S": {
         "value": "{radius.4}",
         "type": "borderRadius"
       },
-      "medium": {
+      "M": {
         "value": "{radius.6}",
         "type": "borderRadius"
       },
-      "large": {
+      "L": {
         "value": "{radius.8}",
         "type": "borderRadius"
       }
     },
     "stroke": {
       "width": {
-        "small": {
+        "S": {
           "value": "{stroke.width.20}",
           "type": "borderWidth"
         },
-        "medium": {
+        "M": {
           "value": "{stroke.width.25}",
           "type": "borderWidth"
         },
-        "large": {
+        "L": {
           "value": "{stroke.width.30}",
           "type": "borderWidth"
         }
@@ -104,16 +104,16 @@
     },
     "focusedOutline": {
       "radius": {
-        "small": {
-          "value": "{checkbox.radius.small}+1",
+        "S": {
+          "value": "{checkbox.radius.S}+1",
           "type": "borderRadius"
         },
-        "medium": {
-          "value": "{checkbox.radius.medium}+2",
+        "M": {
+          "value": "{checkbox.radius.M}+2",
           "type": "borderRadius"
         },
-        "large": {
-          "value": "{checkbox.radius.large}+3",
+        "L": {
+          "value": "{checkbox.radius.L}+3",
           "type": "borderRadius"
         }
       }
@@ -122,30 +122,30 @@
   "radioButton": {
     "stroke": {
       "width": {
-        "small": {
+        "S": {
           "value": "{stroke.width.20}",
           "type": "borderWidth"
         },
-        "medium": {
+        "M": {
           "value": "{stroke.width.25}",
           "type": "borderWidth"
         },
-        "large": {
+        "L": {
           "value": "{stroke.width.30}",
           "type": "borderWidth"
         }
       }
     },
     "size": {
-      "small": {
+      "S": {
         "value": "{dimension.24}",
         "type": "sizing"
       },
-      "medium": {
+      "M": {
         "value": "{dimension.32}",
         "type": "sizing"
       },
-      "large": {
+      "L": {
         "value": "{dimension.40}",
         "type": "sizing"
       }

@@ -43,29 +43,29 @@
       }
     },
     "radius": {
-      "small": {
+      "S": {
         "value": "{radius.xs}",
         "type": "borderRadius"
       },
-      "medium": {
+      "M": {
         "value": "{radius.s}",
         "type": "borderRadius"
       },
-      "large": {
+      "L": {
         "value": "{radius.m}",
         "type": "borderRadius"
       }
     },
     "padding": {
-      "small": {
+      "S": {
         "value": "{space.16}",
         "type": "spacing"
       },
-      "medium": {
+      "M": {
         "value": "{space.20}",
         "type": "spacing"
       },
-      "large": {
+      "L": {
         "value": "{space.24}",
         "type": "spacing"
       }
@@ -79,31 +79,31 @@
       },
       "stroke": {
         "width": {
-          "small": {
-            "value": "{focusedOutline.stroke.width.small}",
+          "S": {
+            "value": "{focusedOutline.stroke.width.S}",
             "type": "borderWidth"
           },
-          "medium": {
-            "value": "{focusedOutline.stroke.width.medium}",
+          "M": {
+            "value": "{focusedOutline.stroke.width.M}",
             "type": "borderWidth"
           },
-          "large": {
-            "value": "{focusedOutline.stroke.width.large}",
+          "L": {
+            "value": "{focusedOutline.stroke.width.L}",
             "type": "borderWidth"
           }
         }
       },
       "radius": {
-        "small": {
-          "value": "{card.radius.small}+2",
+        "S": {
+          "value": "{card.radius.S}+2",
           "type": "borderRadius"
         },
-        "medium": {
-          "value": "{card.radius.medium}+2",
+        "M": {
+          "value": "{card.radius.M}+2",
           "type": "borderRadius"
         },
-        "large": {
-          "value": "{card.radius.large}+2",
+        "L": {
+          "value": "{card.radius.L}+2",
           "type": "borderRadius"
         }
       }
@@ -111,15 +111,15 @@
     "stroke": {
       "width": {
         "outlined": {
-          "small": {
+          "S": {
             "value": "{stroke.width.20}",
             "type": "borderWidth"
           },
-          "medium": {
+          "M": {
             "value": "{stroke.width.25}",
             "type": "borderWidth"
           },
-          "large": {
+          "L": {
             "value": "{stroke.width.30}",
             "type": "borderWidth"
           }
