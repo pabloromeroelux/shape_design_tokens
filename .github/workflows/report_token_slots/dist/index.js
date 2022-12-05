@@ -1,32 +1,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 919:
-/***/ ((__unused_webpack_module, __webpack_exports__, __nccwpck_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
-__nccwpck_require__.r(__webpack_exports__);
-
-;// CONCATENATED MODULE: ../../../token_slots/report.json
-const report_namespaceObject = {};
-;// CONCATENATED MODULE: ./index.js
-// https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action
-// ncc build index.js --license licenses.txt
-
-
-const core = __nccwpck_require__(619);
-
-const output = (0,report_namespaceObject.report)("token_values/product", "token_slots/token_slots.json");
-delete output["FIGMA TOKENS"];
-delete output["TOKEN SLOTS"];
-
-let data = JSON.stringify(output, null, 2);
-core.setOutput("report", output);
-
-
-/***/ }),
-
 /***/ 183:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
@@ -2835,6 +2809,35 @@ module.exports = require("util");
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__nccwpck_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__nccwpck_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__nccwpck_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__nccwpck_require__.o(definition, key) && !__nccwpck_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__nccwpck_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	(() => {
 /******/ 		// define __esModule on exports
@@ -2851,12 +2854,132 @@ module.exports = require("util");
 /******/ 	if (typeof __nccwpck_require__ !== 'undefined') __nccwpck_require__.ab = __dirname + "/";
 /******/ 	
 /************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
-/******/ 	var __webpack_exports__ = __nccwpck_require__(919);
-/******/ 	module.exports = __webpack_exports__;
-/******/ 	
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+(() => {
+"use strict";
+// ESM COMPAT FLAG
+__nccwpck_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: external "path"
+var external_path_ = __nccwpck_require__(17);
+var external_path_default = /*#__PURE__*/__nccwpck_require__.n(external_path_);
+// EXTERNAL MODULE: external "fs"
+var external_fs_ = __nccwpck_require__(147);
+var external_fs_default = /*#__PURE__*/__nccwpck_require__.n(external_fs_);
+;// CONCATENATED MODULE: ../../../token_slots/src/report.ts
+
+
+const report = (input, slotsSource) => {
+    const filePaths = [];
+    const flattenJSON = (obj = {}, res = {}, extraKey = "") => {
+        for (const key in obj) {
+            if (typeof obj[key] !== "object" || key === "value") {
+                // if the key name is value means it is the end
+                // if the key is not an object it means is the end
+                // if it is obj then flatten the obj
+                if (key === "value" && typeof obj[key] === "object") {
+                    res[extraKey.slice(0, -1)] = JSON.stringify(obj[key]);
+                }
+                else {
+                    // if it is not obj then just set it
+                    if (key === "value") {
+                        res[extraKey.slice(0, -1)] = obj[key];
+                    }
+                }
+            }
+            else {
+                flattenJSON(obj[key], res, `${extraKey}${key}.`);
+            }
+        }
+        return res;
+    };
+    const getAllStrings = (obj = {}, res = []) => {
+        const arr = res;
+        for (const key in obj) {
+            if (typeof obj[key] === "string") {
+                arr.push(obj[key]);
+            }
+            else {
+                getAllStrings(obj[key], res);
+            }
+        }
+        return res;
+    };
+    function getPaths(startPath) {
+        const filter = ".json";
+        if (!external_fs_default().existsSync(startPath)) {
+            return;
+        }
+        const files = external_fs_default().readdirSync(startPath);
+        for (var i = 0; i < files.length; i++) {
+            var filename = external_path_default().join(startPath, files[i]);
+            var stat = external_fs_default().lstatSync(filename);
+            if (stat.isDirectory()) {
+                getPaths(filename); //recurse
+            }
+            else if (filename.endsWith(filter) && !filename.includes("/$")) {
+                filePaths.push(filename);
+            }
+        }
+    }
+    getPaths(input);
+    const flatFiles = filePaths.map((path) => {
+        let rawdata = external_fs_default().readFileSync(path);
+        let content = JSON.parse(rawdata.toString());
+        return flattenJSON(content);
+    });
+    const singleFile = Object.assign({}, ...flatFiles);
+    const figmaTokensSlots = [];
+    Object.keys(singleFile).forEach((key) => {
+        // log tokens
+        // console.log(key);
+        const tokenParts = key.split(".");
+        tokenParts.forEach((part) => {
+            if (!figmaTokensSlots.includes(part)) {
+                figmaTokensSlots.push(part);
+            }
+        });
+    });
+    let tokenSlotsFile = getAllStrings(JSON.parse(external_fs_default().readFileSync(slotsSource).toString()));
+    const notDocumented = [];
+    figmaTokensSlots.forEach((slot) => {
+        if (!tokenSlotsFile.includes(slot)) {
+            notDocumented.push(slot);
+        }
+    });
+    const notUsed = [];
+    tokenSlotsFile.forEach((slot) => {
+        if (!figmaTokensSlots.includes(slot)) {
+            notUsed.push(slot);
+        }
+    });
+    const output = {
+        "FIGMA TOKENS": figmaTokensSlots.sort(),
+        "TOKEN SLOTS": tokenSlotsFile.sort(),
+        "NOT DOCUMENTED": notDocumented.sort(),
+        "NOT USED": notUsed.sort(),
+    };
+    return output;
+};
+
+
+;// CONCATENATED MODULE: ./index.js
+// https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action
+// ncc build index.js --license licenses.txt
+
+
+const core = __nccwpck_require__(619);
+
+const output = report("token_values/product", "token_slots/token_slots.json");
+delete output["FIGMA TOKENS"];
+delete output["TOKEN SLOTS"];
+
+let data = JSON.stringify(output, null, 2);
+core.setOutput("report", output);
+
+})();
+
+module.exports = __webpack_exports__;
 /******/ })()
 ;
