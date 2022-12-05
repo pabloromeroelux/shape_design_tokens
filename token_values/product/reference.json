@@ -285,6 +285,7 @@
         "value": "Regular",
         "type": "fontWeights"
       },
+
       "semibold": {
         "value": "SemiBold",
         "type": "fontWeights"

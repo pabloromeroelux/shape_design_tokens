@@ -1,0 +1,8 @@
+name: "Report Slots"
+description: "Report token slots status"
+outputs:
+  report: # id of output
+    description: "token status"
+runs:
+  using: "node16"
+  main: "./dist/index.js"

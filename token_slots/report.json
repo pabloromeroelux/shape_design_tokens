@@ -876,6 +876,7 @@
     "listItem",
     "lists",
     "mark",
+    "medium",
     "metric",
     "minWidth",
     "modal",
@@ -970,7 +971,6 @@
     "zan"
   ],
   "NOT DOCUMENTED": [
-    "medium",
     "small"
   ],
   "NOT USED": [

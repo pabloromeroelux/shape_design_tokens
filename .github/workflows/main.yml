@@ -40,6 +40,10 @@ jobs:
         uses: EndBug/add-and-commit@v9.1.1
         with:
           message: "sync reference"
+      - name: Report
+        uses: ./.github/workflows/report_token_slots
+        id: report_slots
+      - run: echo "references changed ${{ steps.report_slots.outputs.report }}"
   sync_with_supernova:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'sync reference')"
