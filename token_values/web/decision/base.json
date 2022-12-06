@@ -420,20 +420,20 @@
     },
     "onCaution": {
       "muted": {
-        "value": "{color.orange.150}",
+        "value": "{color.yellow.150}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.orange.800}",
+        "value": "{color.yellow.800}",
         "type": "color"
       },
       "default": {
-        "value": "{color.orange.900}",
+        "value": "{color.yellow.900}",
         "type": "color"
       },
 
       "emphasis": {
-        "value": "{color.orange.1000}",
+        "value": "{color.yellow.1000}",
         "type": "color"
       },
       "highlight": {
