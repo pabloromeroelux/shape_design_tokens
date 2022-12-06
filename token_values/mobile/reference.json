@@ -277,28 +277,28 @@
       }
     },
     "weight": {
-      "book": {
-        "value": "Book",
-        "type": "fontWeights"
-      },
-      "regular": {
-        "value": "Regular",
-        "type": "fontWeights"
-      },
-      "semibold": {
-        "value": "SemiBold",
-        "type": "fontWeights"
-      },
-      "bold": {
-        "value": "Bold",
-        "type": "fontWeights"
-      },
-      "light": {
+      "200": {
         "value": "Light",
         "type": "fontWeights"
       },
-      "medium": {
+      "300": {
+        "value": "Book",
+        "type": "fontWeights"
+      },
+      "400": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "500": {
         "value": "Medium",
+        "type": "fontWeights"
+      },
+      "600": {
+        "value": "SemiBold",
+        "type": "fontWeights"
+      },
+      "700": {
+        "value": "Bold",
         "type": "fontWeights"
       }
     },

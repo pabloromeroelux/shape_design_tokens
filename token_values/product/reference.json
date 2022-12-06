@@ -277,6 +277,10 @@
       }
     },
     "weight": {
+      "200": {
+        "value": "Light",
+        "type": "fontWeights"
+      },
       "300": {
         "value": "Book",
         "type": "fontWeights"
@@ -285,20 +289,16 @@
         "value": "Regular",
         "type": "fontWeights"
       },
+      "500": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
       "600": {
         "value": "SemiBold",
         "type": "fontWeights"
       },
       "700": {
         "value": "Bold",
-        "type": "fontWeights"
-      },
-      "200": {
-        "value": "Light",
-        "type": "fontWeights"
-      },
-      "500": {
-        "value": "Medium",
         "type": "fontWeights"
       }
     },
