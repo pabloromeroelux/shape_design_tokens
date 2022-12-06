@@ -26,15 +26,15 @@
     },
     "weight": {
       "normal": {
-        "value": "{font.weight.regular}",
+        "value": "{font.weight.400}",
         "type": "fontWeights"
       },
       "emphasis": {
-        "value": "{font.weight.semibold}",
+        "value": "{font.weight.600}",
         "type": "fontWeights"
       },
       "display": {
-        "value": "{font.weight.regular}",
+        "value": "{font.weight.400}",
         "type": "fontWeights"
       }
     },

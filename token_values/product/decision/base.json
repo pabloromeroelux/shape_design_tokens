@@ -4,7 +4,7 @@
       "S": {
         "value": {
           "fontFamily": "{font.family.default}",
-          "fontWeight": "{font.weight.regular}",
+          "fontWeight": "{font.weight.400}",
           "lineHeight": "{font.lineHeight.default}",
           "fontSize": "round ({font.size.body.S} * {font.sizeMultiplier.theme})",
           "letterSpacing": "{font.letterSpacing.0}",
@@ -18,7 +18,7 @@
       "M": {
         "value": {
           "fontFamily": "{font.family.default}",
-          "fontWeight": "{font.weight.regular}",
+          "fontWeight": "{font.weight.400}",
           "lineHeight": "{font.lineHeight.default}",
           "fontSize": "round ({font.size.body.M} * {font.sizeMultiplier.theme})",
           "letterSpacing": "{font.letterSpacing.0}",
@@ -32,7 +32,7 @@
       "L": {
         "value": {
           "fontFamily": "{font.family.default}",
-          "fontWeight": "{font.weight.regular}",
+          "fontWeight": "{font.weight.400}",
           "lineHeight": "{font.lineHeight.default}",
           "fontSize": "round ({font.size.body.L} * {font.sizeMultiplier.theme})",
           "letterSpacing": "{font.letterSpacing.0}",
@@ -133,7 +133,7 @@
       "M": {
         "value": {
           "fontFamily": "{font.family.default}",
-          "fontWeight": "{font.weight.regular}",
+          "fontWeight": "{font.weight.400}",
           "lineHeight": "{font.lineHeight.S}",
           "fontSize": "round ({font.size.16} * {font.sizeMultiplier.theme})",
           "letterSpacing": "{font.letterSpacing.0}",
@@ -147,7 +147,7 @@
       "S": {
         "value": {
           "fontFamily": "{font.family.default}",
-          "fontWeight": "{font.weight.regular}",
+          "fontWeight": "{font.weight.400}",
           "lineHeight": "{font.lineHeight.S}",
           "fontSize": "round ({font.size.14} * {font.sizeMultiplier.theme})",
           "letterSpacing": "{font.letterSpacing.0}",
@@ -316,15 +316,15 @@
     },
     "weight": {
       "default": {
-        "value": "{font.weight.regular}",
+        "value": "{font.weight.400}",
         "type": "fontWeights"
       },
       "emphasis": {
-        "value": "{font.weight.semibold}",
+        "value": "{font.weight.600}",
         "type": "fontWeights"
       },
       "display": {
-        "value": "{font.weight.light}",
+        "value": "{font.weight.200}",
         "type": "fontWeights"
       }
     },

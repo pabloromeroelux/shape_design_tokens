@@ -277,27 +277,27 @@
       }
     },
     "weight": {
-      "book": {
+      "300": {
         "value": "Book",
         "type": "fontWeights"
       },
-      "regular": {
+      "400": {
         "value": "Regular",
         "type": "fontWeights"
       },
-      "semibold": {
+      "600": {
         "value": "SemiBold",
         "type": "fontWeights"
       },
-      "bold": {
+      "700": {
         "value": "Bold",
         "type": "fontWeights"
       },
-      "light": {
+      "200": {
         "value": "Light",
         "type": "fontWeights"
       },
-      "medium": {
+      "500": {
         "value": "Medium",
         "type": "fontWeights"
       }

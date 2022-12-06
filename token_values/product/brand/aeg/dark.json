@@ -14,11 +14,11 @@
     },
     "weight": {
       "emphasis": {
-        "value": "{font.weight.medium}",
+        "value": "{font.weight.500}",
         "type": "fontWeights"
       },
       "normal": {
-        "value": "{font.weight.regular}",
+        "value": "{font.weight.400}",
         "type": "fontWeights"
       }
     },

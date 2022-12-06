@@ -24,11 +24,11 @@
     },
     "weight": {
       "default": {
-        "value": "{font.weight.book}",
+        "value": "{font.weight.300}",
         "type": "fontWeights"
       },
       "emphasis": {
-        "value": "{font.weight.medium}",
+        "value": "{font.weight.500}",
         "type": "fontWeights"
       }
     }
