@@ -397,24 +397,24 @@
     },
     "caution": {
       "muted": {
-        "value": "{color.orange.300}",
+        "value": "{color.yellow.300}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.orange.400}",
+        "value": "{color.yellow.400}",
         "type": "color"
       },
       "default": {
-        "value": "{color.orange.450}",
+        "value": "{color.yellow.450}",
         "type": "color"
       },
 
       "emphasis": {
-        "value": "{color.orange.500}",
+        "value": "{color.yellow.500}",
         "type": "color"
       },
       "highlight": {
-        "value": "{color.orange.900}",
+        "value": "{color.yellow.900}",
         "type": "color"
       }
     },
