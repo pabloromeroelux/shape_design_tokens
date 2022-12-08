@@ -1,0 +1,22 @@
+[
+  {
+    "id": "0633cdf3eb26da8c4f7302b3145e66e7d7dd026e",
+    "name": "Agnostic Light",
+    "selectedTokenSets": {
+      "reference": "source",
+      "decision/base": "enabled",
+      "brand/light/electrolux": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "a7c341049ce30efd56c1bd9a26e9a0cb5e4c47b7",
+    "name": "Electrolux Light",
+    "selectedTokenSets": {
+      "reference": "source",
+      "decision/base": "enabled",
+      "brand/light/electrolux": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

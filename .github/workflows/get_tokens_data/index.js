@@ -10,6 +10,7 @@ const referencePaths = [
   `${prefix}token_values/mobile/reference.json`,
   `${prefix}token_values/product/reference.json`,
   `${prefix}token_values/web/reference.json`,
+  `${prefix}token_values/web/template.json`,
 ];
 
 const updatedPaths = Array(core.getInput("changes"));
