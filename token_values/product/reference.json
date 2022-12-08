@@ -493,17 +493,33 @@
         "value": "0%",
         "type": "letterSpacing"
       },
-      "3": {
-        "value": "3%",
-        "type": "letterSpacing"
+      "down": {
+        "1": {
+          "value": "1%",
+          "type": "letterSpacing"
+        },
+        "2": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "3": {
+          "value": "3%",
+          "type": "letterSpacing"
+        }
       },
-      "5": {
-        "value": "5%",
-        "type": "letterSpacing"
-      },
-      "10": {
-        "value": "10%",
-        "type": "letterSpacing"
+      "up": {
+        "1": {
+          "value": "1%",
+          "type": "letterSpacing"
+        },
+        "2": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "3": {
+          "value": "3%",
+          "type": "letterSpacing"
+        }
       }
     },
     "paragraphSpacing": {
