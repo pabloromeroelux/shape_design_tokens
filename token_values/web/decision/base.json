@@ -602,21 +602,21 @@
     },
 
     "preamble": {
-      "M": {
-        "S": {
-          "value": {
-            "fontFamily": "{font.family.default}",
-            "fontWeight": "{font.weight.default}",
-            "fontSize": "{font.size.20}",
-            "lineHeight": "{font.lineHeight.L}",
-            "letterSpacing": "{font.letterSpacing.0}",
-            "paragraphSpacing": "",
-            "textDecoration": "{font.textDecoration.none}",
-            "textCase": "{font.case.none}"
-          },
-          "type": "typography",
-          "description": "Preamble S"
+      "S": {
+        "value": {
+          "fontFamily": "{font.family.default}",
+          "fontWeight": "{font.weight.default}",
+          "fontSize": "{font.size.20}",
+          "lineHeight": "{font.lineHeight.L}",
+          "letterSpacing": "{font.letterSpacing.0}",
+          "paragraphSpacing": "",
+          "textDecoration": "{font.textDecoration.none}",
+          "textCase": "{font.case.none}"
         },
+        "type": "typography",
+        "description": "Preamble S"
+      },
+      "M": {
         "value": {
           "fontFamily": "{font.family.default}",
           "fontWeight": "{font.weight.default}",
