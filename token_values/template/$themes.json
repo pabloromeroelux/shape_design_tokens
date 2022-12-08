@@ -4,8 +4,7 @@
     "name": "Agnostic Light",
     "selectedTokenSets": {
       "reference": "source",
-      "decision/base": "enabled",
-      "brand/light/electrolux": "disabled"
+      "decision/base": "enabled"
     },
     "$figmaStyleReferences": {}
   }
